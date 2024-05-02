@@ -17,4 +17,4 @@ Testing of features and further design revisions can be found
  [here](Testing.md)
 
  ## Project Mascot!
-![alt text](images/Dumbell_pic.png)
+![alt text](images/pngtree-pink-dumbbell-fitness-png-image_10257192.png)
