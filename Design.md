@@ -40,33 +40,33 @@ When I am designing my website I will refer to nielsen's heuristics and try to m
 
 The usability implications of a digital technology or digital outcome relate to how easy it is to use for the end-user, without the need for help or guidance.
 
-I will need to design my system to be easy to use because my brother is not very good with technology compared to most people his age. I will need to make sure that anyone could use my website no matter what experience they have.
+I will need to design my system to be as usable as possible as the user may not be as experienced with It as i am, I will need to make sure my website could be used by anyone with any level if IT experience
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When I am designing my website I will refer to nielsen's heuristics and try to make sure that the UI meets them as best as possible, specifically I want my UI to Follow standard conventions, have everything in the correct place where it would normally be, I want the behaviour of the outcome to be familiar andd logical s anyone could make sense of it, And i want thr user to be given clear directions n what to do and have a clear way on how to undo/cancel. And i always want the user to be aware of what is happening, so they do not get confused if the system takes longer to do something than normal.
 
 ### Aesthetics
 
-Replace this text with a clear explanation of what the implication means.
+The aesthetic implications of a digital technology or digital outcome relate to how it looks in terms of design.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+Aesthetics is important to my system as I want it to be appealing and catch the eye of the user. And it is important it follows the design conventions.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When I am designing my website I will refer to nielsen's heuristics and try to make sure that the UI meets them as best as possible, specifically I want my UI to appeal to my user, meaning I will need to create designs and show it to the user to decide which they find most appealing, I want the design to be suitable for the outcomes purpose and not seem idiotic. I want to use colours and fonts that work together, to create a pleasing effect. I want everything to be correctly positioned so it doesn't seem unfamiliar.
 
 ### End-Users
 
-Replace this text with a clear explanation of what the implication means.
+The end-user implications of a digital technology or digital outcome are connected to the specific needs of the end-user(s).
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I need to design my system to be meet the users needs so they can be comfortable using the website, and i need to ensure it works on the devices my brother would use.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+When I am designing my website I will refer to nielsen's heuristics and try to make sure that the UI meets them as best as possible, specifically I want my UI to know as much about the user as possible in terms of age, gender etc. I want it to use appropriate language so it doesn't seem unfamiliar and is comfortable to use. I will need to regular get feedback and always take it into account while I am designing the system. And I will need to ensure it works on many devices, as the user may use more than one device.
 
-### Aesthetics
+### Social
 
-Replace this text with a clear explanation of what the implication means.
+The social implications of a digital technology or digital outcome involve how it affects users, the wider community and society as a whole.
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I need to design my system to not misrepresent any social groups or cause any offence and I want it too appeal to all social groups.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to avoid putting in any racist or bigoted details in the system and using gender neutral pronouns whenever possible, all while avoiding the promotion of any drugs or bad activities.
 
 
 -------------------------------------------------
