@@ -1,5 +1,5 @@
 # The-Bat-Cave-200DTD-Assessment-
-Bayleys workout tracker
+Bayley's Epic Workout App
 
 ## Purpose
 
