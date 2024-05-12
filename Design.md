@@ -1,6 +1,6 @@
 # The Design of a Database-Linked Website for NCEA Level 2
 
-Project Name: **Bayleys Epic Workout App**
+Project Name: **Bayley's Epic Workout App**
 
 Project Author: **Cooper Holmes**
 
@@ -17,7 +17,8 @@ My brother needs a way to help him track his workouts so he can see his progress
 
 ### End-User Requirements
 
-Replace this text with a description of your typical end-users and their specific needs / expectations / requirements.
+The user of my website will be a 19 year old who wants to track his workouts so he can see his improvement over time.
+The user wants a way to see lists of the weight and reps he has done on one exercise over a period of time, they could do this vis mobile phone or computer their it skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
 
 ### Proposed Solution
 
