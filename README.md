@@ -5,16 +5,17 @@ Bayley's Epic Workout App
 
 This project is a system that will allow a user to track their workouts and see progress on different exercises over time 
 
+![Alt text](images/pngtree-pink-dumbbell-fitness-png-image_10257192.png)
+
 ## Features
 
-- 
+- Allows the user to enter new exercises
+- Allows user to see a table of a certain exercise over time to see their improvement
+- Allows the user to delete certain exercises
 
-## System design
+## Documentation
+ 
+The following documents support this project:
 
-All of the initial design for the system can be found [here](Design.md)
-
-Testing of features and further design revisions can be found            
- [here](Testing.md)
-
- ## Project Mascot!
-![alt text](images/pngtree-pink-dumbbell-fitness-png-image_10257192.png)
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
