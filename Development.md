@@ -15,13 +15,14 @@ Assessment Standards: **91892** and **91893**
 
 Designing the database
 
-![Alt text](database.png)
+![Database Design](images/database-design.png)
 
-### DATE HERE
+### 20/05/24
 
-Replace this test with what you are working on
+Designing the UI for the website
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+created a flow chart to show how the site would work, Not sure about the add workout section, will get feedback.
+![UI Flowchart Version 1](images/flow1.png)
 
 ### DATE HERE
 
