@@ -32,11 +32,12 @@ Got feedback from my user about how he wants the add workout form to work
 So I changed the flow chart to show it being accessible fro  the exercise list 
 ![UI Flowchart Version 2](images/flow2.png)
 
-### DATE HERE
+### 23/05/24
 
-Replace this test with what you are working on
+Creating version 1 of the UI in figma
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Didn't finish, will show to user, get feedback, and finish next time.
+![Figma UI Version !](images/figma-UI-V1.png.png)
 
 ### DATE HERE
 
