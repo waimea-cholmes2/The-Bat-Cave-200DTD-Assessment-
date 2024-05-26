@@ -37,13 +37,14 @@ So I changed the flow chart to show it being accessible fro  the exercise list
 Creating version 1 of the UI in figma
 
 Didn't finish, will show to user, get feedback, and finish next time.
-![Figma UI Version !](images/figma-UI-V1.png.png)
+![Figma UI Version 1](images/figma-UI-V1.png)
 
-### DATE HERE
+### 27/05/24
 
-Replace this test with what you are working on
+Finished V1 of UI in figma
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Was unable to meet and get feedback, so I finished the design of the Ui with my current ideas and will show to the user for feedback.
+![Figma Ui Version 1](images/finished-figma-UI-V1.png)
 
 ### DATE HERE
 
