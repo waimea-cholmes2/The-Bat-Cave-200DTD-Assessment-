@@ -46,8 +46,15 @@ Finished V1 of UI in figma
 Was unable to meet and get feedback, so I finished the design of the Ui with my current ideas and will show to the user for feedback.
 ![Figma Ui Version 1](images/finished-figma-UI-V1.png)
 
-### DATE HERE
+### 30/05/24
 
-Replace this test with what you are working on
+Got Feedback from the End User on the Figma UI design
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+> Yeah that should work, But maybe put the home button up the top, and make it like a home symbol, and also put a home button on the exercise table as well. And Also make it so that if I add a workout from the home page, it takes me back to the home page, rather than taking me straight to the exercise table.
+
+### 10/06/24
+
+Acted on the feedback and made some changes to the UI design
+
+I added the small home symbol into the header but I did need to move the title of the pages over to do so, I also had to make a second "add workout form" page to simulate it being a single page that can take you back to where you entered the form from:
+![Figma UI Version 2](images/finished-figma-UI-V2.png)
