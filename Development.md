@@ -58,3 +58,10 @@ Acted on the feedback and made some changes to the UI design
 
 I added the small home symbol into the header but I did need to move the title of the pages over to do so, I also had to make a second "add workout form" page to simulate it being a single page that can take you back to where you entered the form from:
 ![Figma UI Version 2](images/finished-figma-UI-V2.png)
+
+### 11/06/24
+
+Added Color to the Figma UI Design
+
+I tried to add some darker colors to symbolize the grittiness of the gym and working out, will get feedback from my end user about their opinions on the colors:
+![Colored Figma UI Version 1](images/colored-figma-UI-V1.png)
