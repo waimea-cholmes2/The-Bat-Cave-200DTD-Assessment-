@@ -1,6 +1,6 @@
 # Development of a Database-Linked Website for NCEA Level 2
 
-Project Name: **Bayley's Epic Workout App**
+Project Name: **Bayleys Epic Workout App**
 
 Project Author: **Cooper Holmes**
 
@@ -61,7 +61,17 @@ I added the small home symbol into the header but I did need to move the title o
 
 ### 11/06/24
 
-Added Color to the Figma UI Design
+Added Colour to the Figma UI Design
 
 I tried to add some darker colors to symbolize the grittiness of the gym and working out, will get feedback from my end user about their opinions on the colors:
-![Colored Figma UI Version 1](images/colored-figma-UI-V1.png)
+![Coloured Figma UI Version 1](images/coloured-figma-UI-V1.png)
+
+### 13/06/24
+
+Got some feedback from my user so I have made changes to the coloured UI, I also made changes to the database to try and make it more logical and structured
+
+>Centre the title, and also make it bold, make the text on the buttons bold too, I do like the colours though.
+![Coloured Figma UI Version 2](images/coloured-figma-UI-V2.png)
+
+Since their will be multiple exercises in each workout, I moved around most of the segments inside the database, I added a new key to link the exercises to the workouts as well:
+![Database Design V2](images/database-design-V2.png)
