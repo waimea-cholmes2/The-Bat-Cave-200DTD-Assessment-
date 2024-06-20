@@ -1,5 +1,5 @@
 <?php
-require '_function.php';
+require 'lib/utils.php';
 include 'partials/top.php'; 
 ?>
 

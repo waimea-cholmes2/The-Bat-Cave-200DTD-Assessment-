@@ -75,3 +75,8 @@ Got some feedback from my user so I have made changes to the coloured UI, I also
 
 Since their will be multiple exercises in each workout, I moved around most of the segments inside the database, I added a new key to link the exercises to the workouts as well:
 ![Database Design V2](images/database-design-V2.png)
+
+## 18/06/24
+
+I made the home page to my website just a really low quality version:
+![Website Homepage V1](images/website-homepage-V1.png)
