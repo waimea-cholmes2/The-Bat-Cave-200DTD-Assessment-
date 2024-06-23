@@ -80,3 +80,15 @@ Since their will be multiple exercises in each workout, I moved around most of t
 
 I made the home page to my website just a really low quality version:
 ![Website Homepage V1](images/website-homepage-V1.png)
+
+## 20/06/24
+I made the exercise list page, didn't add to many details just a description, it's a bit different from the way I made it in figma. Will get feedback on the new design after I make the rest of the page.
+![Exercise List V1](images/exercise-list-V1.png)
+
+I also redesigned the database with help from sir
+![Database V3](images/database-design-V3.png)
+
+## 24/06/24
+
+I made the add exercise form, looks the same as I wanted it to be
+![Exercise Form V1](images/add-exercise-form-V1.png)
