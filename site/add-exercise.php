@@ -38,5 +38,9 @@ catch (PDOException $e) {
 echo '<p>Success!</p>';
 
 
+echo '<a href="list-exercise.php">
+Back
+</a>';
+
  include 'partials/bottom.php'; 
  ?>

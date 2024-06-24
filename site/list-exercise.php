@@ -10,7 +10,8 @@ $db = connectToDB();
 
 consolelog($db);
 
-$query = 'SELECT exercise.name     AS ename,
+$query = 'SELECT exercise.id     AS id,
+                 exercise.name     AS ename,
                  exercise.description AS edescription,
                  exercise.sets      AS esets,
                  exercise.reps      AS ereps
@@ -48,6 +49,8 @@ foreach($exercise as $exer) {
   echo '<td>' . $exer['edescription'] . '</td>';
   echo '<td>' . $exer['esets'] . '</td>';
   echo '<td>' . $exer['ereps'] . '</td>';
+  echo '<td> <a href="delete-exercise.php?id=' . $exer['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
+
 }
 
 echo '</table>';

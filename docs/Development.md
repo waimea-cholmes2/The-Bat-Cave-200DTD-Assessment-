@@ -92,3 +92,8 @@ I also redesigned the database with help from sir
 
 I made the add exercise form, looks the same as I wanted it to be
 ![Exercise Form V1](images/add-exercise-form-V1.png)
+
+## 25/06/24
+
+I added a delete button, and it all adds to the table correctly
+![Exercise List V2](images/exercise-list-V2.png)

@@ -23,4 +23,8 @@ include 'partials/top.php';
 
 </form>
 
+<a href="list-exercise.php">
+Cancel
+</a>
+
 <?php include 'partials/bottom.php'; ?>
