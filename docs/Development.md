@@ -97,3 +97,14 @@ I made the add exercise form, looks the same as I wanted it to be
 
 I added a delete button, and it all adds to the table correctly
 ![Exercise List V2](images/exercise-list-V2.png)
+
+## 27/06/24
+ I've decided to put the description in a different page where it says all the stats, as the description doesn't have enough room and is too stretched when in a mobile  format.                                     
+ 
+ ![Exercise List Mobile V1](images/exercise-list-mobile-V1.png)   ![Alt text](images/exercise-list-mobile-v2.png)
+
+ I also got feedback on the design 
+ 
+ >> Yeah that's cool, it'll be better when you add colours though, and change the home button back to just the word, cause it looks kind of dumb.
+
+ ![Header With Word "Home" Instead of The Emoji](images/changed-header-to-have-word.png)

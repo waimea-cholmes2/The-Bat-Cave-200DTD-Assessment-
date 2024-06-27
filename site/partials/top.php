@@ -16,9 +16,10 @@ $page = basename($_SERVER['SCRIPT_NAME']);
     <title><?= SITE_NAME ?></title>
 
     <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.orange.min.css"
-/>
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.orange.min.css"
+     />
+    <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
@@ -28,7 +29,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h1><?= SITE_NAME ?></h1>
 
         <nav>
-            <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">🏠︎</a>
+            <a href="index.php"     class="<?= $page=='index.php'     ? 'active' : '' ?>">Home</a>
         </nav>
     </header>
 

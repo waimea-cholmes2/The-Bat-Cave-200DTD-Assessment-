@@ -12,7 +12,6 @@ consolelog($db);
 
 $query = 'SELECT exercise.id     AS id,
                  exercise.name     AS ename,
-                 exercise.description AS edescription,
                  exercise.sets      AS esets,
                  exercise.reps      AS ereps
 
@@ -38,19 +37,18 @@ consoleLog($exercise);
 echo '<table>
 <tr>
     <th>Name</th>
-    <th>Description</th>
     <th>sets</th>
     <th>reps</th>
+    <th></th>
 </tr>';
 
 foreach($exercise as $exer) {
   echo '<tr>';
   echo '<td> <a href="stats-exercise.php">' . $exer['ename'] . '</a>' ;
-  echo '<td>' . $exer['edescription'] . '</td>';
   echo '<td>' . $exer['esets'] . '</td>';
   echo '<td>' . $exer['ereps'] . '</td>';
   echo '<td> <a href="delete-exercise.php?id=' . $exer['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
-
+  echo '</tr>';
 }
 
 echo '</table>';
