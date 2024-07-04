@@ -108,3 +108,9 @@ I added a delete button, and it all adds to the table correctly
  >> Yeah that's cool, it'll be better when you add colours though, and change the home button back to just the word, cause it looks kind of dumb.
 
  ![Header With Word "Home" Instead of The Emoji](images/changed-header-to-have-word.png)
+
+
+## 4/07/2024
+
+Tried making the exercise description paige, ran into a problem I couldn't fix on my own, will get help next time
+![Alt text](image.png)

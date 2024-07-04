@@ -44,7 +44,7 @@ echo '<table>
 
 foreach($exercise as $exer) {
   echo '<tr>';
-  echo '<td> <a href="workout.php">' . $exer['ename'] . '</a>' ;
+  echo '<td> <a href="exercise-description.php">' . $exer['ename'] . '</a>' ;
   echo '<td>' . $exer['esets'] . '</td>';
   echo '<td>' . $exer['ereps'] . '</td>';
   echo '<td> <a href="delete-exercise.php?id=' . $exer['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
