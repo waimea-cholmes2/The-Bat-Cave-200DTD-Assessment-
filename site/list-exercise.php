@@ -2,7 +2,7 @@
 require 'lib/utils.php';
 include 'partials/top.php'; 
 
-echo '<h1> Exercise List</h1>';
+echo '<h1>Exercise List</h1>';
 
 
 
@@ -13,7 +13,8 @@ consolelog($db);
 $query = 'SELECT exercise.id     AS id,
                  exercise.name     AS ename,
                  exercise.sets      AS esets,
-                 exercise.reps      AS ereps
+                 exercise.reps      AS ereps,
+                 exercise.description AS edescription
 
                  FROM exercise
 
@@ -39,6 +40,7 @@ echo '<table>
     <th>Name</th>
     <th>sets</th>
     <th>reps</th>
+    <th>description</th>
     <th></th>
 </tr>';
 
@@ -47,6 +49,7 @@ foreach($exercise as $exer) {
   echo '<td> <a href="exercise-description.php">' . $exer['ename'] . '</a>' ;
   echo '<td>' . $exer['esets'] . '</td>';
   echo '<td>' . $exer['ereps'] . '</td>';
+  echo '<td>' . $exer['edescription'] . '</td>';
   echo '<td> <a href="delete-exercise.php?id=' . $exer['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
   echo '</tr>';
 }
