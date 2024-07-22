@@ -10,16 +10,18 @@ $db = connectToDB();
 
 consolelog($db);
 
-$query = 'SELECT exercise.description    AS edescription
+$query = 'SELECT * FROM exercise WHERE description=?';
 
-                FROM exercise 
+// $query = 'SELECT exercise.description    AS edescription
 
-                ORDER BY exercise.name ASC';
+//                 FROM exercise WHERE category = ?
+
+//                 ORDER BY exercise.name ASC';
 
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $exercise = $stmt->fetchALL();
+    $exercise = $stmt->fetch();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
@@ -38,7 +40,7 @@ echo '<table>
 
 foreach($exercise as $exer) {
   echo '<tr>';
-  echo '<td>' . $exer['edescription'] . '</td>';
+  echo '<td>' . $exer['description'] . '</td>';
   echo '</tr>';
 }
   echo '</table>';

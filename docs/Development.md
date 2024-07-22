@@ -112,5 +112,5 @@ I added a delete button, and it all adds to the table correctly
 
 ## 4/07/2024
 
-Tried making the exercise description paige, ran into a problem I couldn't fix on my own, will get help next time
+Tried making the exercise description page, ran into a problem I couldn't fix on my own, will get help next time
 ![Alt text](image.png)
