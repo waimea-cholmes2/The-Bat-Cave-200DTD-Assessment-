@@ -114,3 +114,7 @@ I added a delete button, and it all adds to the table correctly
 
 Tried making the exercise description page, ran into a problem I couldn't fix on my own, will get help next time
 ![Alt text](image.png)
+
+## 25/07/24
+I finished making the exercise description page with help from others and Mr.Copley, I also have started to remake part of the design, will show changes next class
+![Alt text](images/imagee.png)

@@ -11,8 +11,8 @@ Exercise List
 </a>
 </div>
 
-<div id="add-workout-button">
-<a href="form-workout.php">
+<div id="workout-button">
+<a href="workout.php">
 Add Workout
 </a>
 </div>
