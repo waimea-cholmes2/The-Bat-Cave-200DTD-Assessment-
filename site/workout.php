@@ -32,9 +32,7 @@ echo '<ul id="workout-list">';
 
 foreach($workouts as $work) {
     echo '<li>';
-    echo '<a href="workout_progress.php?name='. $work['name']. '">';
-    echo    $work['name'];
-    echo    '</a>';
+    echo '<a href="workout_progress.php?id=' . $work['id'] . '">' . $work['name'] . '</a>' ;
 
     echo '</li>';
 }

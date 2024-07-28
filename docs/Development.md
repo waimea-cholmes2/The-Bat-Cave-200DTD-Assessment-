@@ -118,3 +118,6 @@ Tried making the exercise description page, ran into a problem I couldn't fix on
 ## 25/07/24
 I finished making the exercise description page with help from others and Mr.Copley, I also have started to remake part of the design, will show changes next class
 ![Alt text](images/imagee.png)
+I also showed what i had to my user 
+>> Yeah that's all cool, but you should make a page that shows the workouts as well, and also make it so when in that page, when you click on the workout all the exercise in that workout pop uyp as well as the data for each workout.
+![Workout-Page-V1](images/workout-page-v1.png)

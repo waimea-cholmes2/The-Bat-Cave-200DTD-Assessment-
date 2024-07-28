@@ -20,7 +20,7 @@ consolelog($db);
 $query = 'SELECT date_and_time.date    AS datd,
                  date_and_time.time     AS datt
 
-                 FROM date_and_time WHERE id = ?';
+                 FROM date_and_time WHERE workout_id = ?';
 
 try {
     $stmt = $db->prepare($query);
@@ -29,7 +29,7 @@ try {
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting exercise data from the database');
+    die('There was an error getting workout data from the database');
 }
 
 //see what we get back
