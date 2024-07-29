@@ -13,7 +13,7 @@ Exercise List
 
 <div id="workout-button">
 <a href="workout.php">
-Add Workout
+Workouts
 </a>
 </div>
 
