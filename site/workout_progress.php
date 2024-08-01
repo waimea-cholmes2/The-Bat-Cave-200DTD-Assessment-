@@ -11,13 +11,52 @@ if($workoutID == null) die('Missing ID');
 $db = connectToDB();
 
 
-echo '<div id="add-button">
-<a href="form-workout.php">
-Add Workout
-</a>
-</div>';
+
 
 consolelog($db);
+
+$query = 'SELECT exercise.name  AS ename
+
+            FROM contains
+            JOIN exercise ON contains.exercise_id = exercise.id
+            WHERE contains.workout_id = ?';
+
+try {
+    $stmt = $db->prepare($query);
+    $stmt->execute([$workoutID]);
+    $workouts = $stmt->fetchALL();
+}
+catch (PDOException $e) {
+    consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
+    die('There was an error getting service data from the database');
+}
+ 
+// See what we got back
+consoleLog($workouts);
+ 
+echo '<ul id="name-list">';
+ 
+echo '<table>
+        <tr>
+            <th>Name</th>
+        </tr>';
+ 
+foreach($workouts as $work) {
+    echo '<tr>';
+    echo '<td>' . $work['ename'] . '</td>';
+ 
+    echo '</tr>';
+}
+ 
+echo '</table>';
+ 
+echo '</ul>';
+ 
+echo '<div id="modify-button">
+<a href="modify.php?id='. $workoutID . '">
+Modify
+</a>
+</div>';
 
 $query = 'SELECT date_and_time.date    AS datd,
                  date_and_time.time     AS datt

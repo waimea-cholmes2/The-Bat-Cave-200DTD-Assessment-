@@ -40,7 +40,6 @@ echo '<table>
     <th>Name</th>
     <th>sets</th>
     <th>reps</th>
-    <th>description</th>
     <th></th>
 </tr>';
 

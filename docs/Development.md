@@ -131,4 +131,4 @@ This is how the page looks currently, I haven't put in any data for the workout 
 ![Workout Progress Design V1](images/workout-progress-V1.png)
 
 I also made a small change to all of the add workout buttons, that they now take you to the workout page instead of the workout form, which i haven't made yet and do need to make.
-![Alt text](images/image.png)
+![Alt text](images/home-page-workout-button.png)
