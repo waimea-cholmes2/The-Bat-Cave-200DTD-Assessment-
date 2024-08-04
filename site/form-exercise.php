@@ -7,8 +7,6 @@ include 'partials/top.php';
 
 <form method="post" action="add-exercise.php">
 
-    <input name="workout_id" type="hidden" value="<?= $workoutID ?>">
-
     <label>Name</label>
     <input name ="name" type="text" placeholder="e.g Bench Press" required>
 

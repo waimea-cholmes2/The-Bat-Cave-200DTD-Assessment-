@@ -52,9 +52,32 @@ echo '</table>';
  
 echo '</ul>';
 
+
+
+$query = 'SELECT * FROM exercise';
+//attempt to run the query
+try {
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $exercise = $stmt->fetchALL();
+}
+catch (PDOException $e) {
+    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+    die('There was an error getting data from the database');
+}
 ?>
-<form>
-<?php echo '<option value="'.$exercise['id'].'">';
+
+<form method="post" action="add-exer-work.php">
+
+<label>Exercises</label>
+    <select name ="exercises" required>
+
+<?php 
+echo '<option value="'.$exercise['id'].'">';
 echo   $exercise['name'];
 echo '</option>';
 ?>
+
+<input type="submit" value="Add">
+
+</form>
