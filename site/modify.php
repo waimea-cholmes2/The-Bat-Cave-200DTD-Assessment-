@@ -59,7 +59,7 @@ $query = 'SELECT * FROM exercise';
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $exercise = $stmt->fetchALL();
+    $exercises = $stmt->fetchALL();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
@@ -73,9 +73,11 @@ catch (PDOException $e) {
     <select name ="exercises" required>
 
 <?php 
-echo '<option value="'.$exercise['id'].'">';
-echo   $exercise['name'];
-echo '</option>';
+foreach($exercises as $exercise){
+    echo '<option value="'.$exercise['id'].'">';
+    echo   $exercise['name'];
+    echo '</option>';
+}
 ?>
 
 <input type="submit" value="Add">

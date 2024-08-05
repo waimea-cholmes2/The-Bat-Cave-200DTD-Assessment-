@@ -31,6 +31,7 @@ catch (PDOException $e) {
     die('There was an error getting service data from the database');
 }
  
+consoleLog('workoutID' . $workoutID);
 // See what we got back
 consoleLog($workouts);
  

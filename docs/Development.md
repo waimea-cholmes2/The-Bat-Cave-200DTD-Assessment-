@@ -115,14 +115,14 @@ I added a delete button, and it all adds to the table correctly
 Tried making the exercise description page, ran into a problem I couldn't fix on my own, will get help next time
 ![Alt text](image.png)
 
-## 25/07/24
+## 25/07/2024
 I finished making the exercise description page with help from others and Mr.Copley, I also have started to remake part of the design, will show changes next class
 ![Alt text](images/imagee.png)
 I also showed what i had to my user 
 >> Yeah that's all cool, but you should make a page that shows the workouts as well, and also make it so when in that page, when you click on the workout all the exercise in that workout pop up as well as the data for each workout.
 ![Workout-Page-V1](images/workout-page-v1.png)     
 
-## 25/07/24
+## 25/07/2024
 I got some more feedback on the design of the workout progress page
 >> That's cool, but you should stack the exercises of the workout on top of the data, so like i can see the workouts, and then scroll down to see my progress
 To do this i had to change my data base to add a date and time table to store the data, this is what i did:
@@ -132,3 +132,10 @@ This is how the page looks currently, I haven't put in any data for the workout 
 
 I also made a small change to all of the add workout buttons, that they now take you to the workout page instead of the workout form, which i haven't made yet and do need to make.
 ![Alt text](images/home-page-workout-button.png)
+
+## 06/08/2024
+
+Last lesson i made a change on how to add and delete exercises from the workouts
+[image]
+I showed my user and they said
+>> yeah haha that's actually way better, looks like it'll be much easier too
