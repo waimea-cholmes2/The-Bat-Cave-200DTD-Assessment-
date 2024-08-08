@@ -61,8 +61,8 @@ Add Exercise
 </div>';
 
 echo '<div id="add-button">
-<a href="form-workout.php">
-Add Workout
+<a href="workout.php">
+Workouts
 </a>
 </div>';
 

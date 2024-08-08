@@ -2,13 +2,19 @@
 require 'lib/utils.php';
 include 'partials/top.php';
  
-echo '<h1>Adding booking to database</h1>';
+echo '<h1>Adding exercise to workout database</h1>';
  
+consoleLog($_POST, 'POST DATA');
+
+$exerciseID  = $_POST['name'];
+
+
 consoleLog($_GET, 'Get Data');
  
 //Get form data
-$workoutID = $_GET['workout'] ?? null;
-$exerciseID = $_GET['exercise'] ?? null;
+
+$workoutID = $_GET['workout_id'] ?? null;
+
  
 //Connect to the database
 $db = connectToDB();
@@ -26,7 +32,7 @@ catch (PDOException $e) {
     die(' There was an error adding exercise data to the workout database');
 }
  
- header('location: modify.php');
+ //header('location: modify.php');
  
 include 'partials/bottom.php'; ?>
  

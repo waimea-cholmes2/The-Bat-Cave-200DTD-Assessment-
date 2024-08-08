@@ -67,7 +67,7 @@ catch (PDOException $e) {
 }
 ?>
 
-<form method="post" action="add-exer-work.php">
+<form method="post" action="add-exer-work.php?id=<?= $workoutID ?>" >
 
 <label>Exercises</label>
     <select name ="exercises" required>
@@ -83,3 +83,11 @@ foreach($exercises as $exercise){
 <input type="submit" value="Add">
 
 </form>
+
+<?php
+echo '<div id="modify-button">
+<a href="workout_progress.php?id='. $workoutID . '">
+Done
+</a>
+</div>';
+?>

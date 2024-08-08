@@ -117,8 +117,10 @@ Tried making the exercise description page, ran into a problem I couldn't fix on
 
 ## 25/07/2024
 I finished making the exercise description page with help from others and Mr.Copley, I also have started to remake part of the design, will show changes next class
+
 ![Alt text](images/imagee.png)
-I also showed what i had to my user 
+
+I also showed what I had to my user 
 >> Yeah that's all cool, but you should make a page that shows the workouts as well, and also make it so when in that page, when you click on the workout all the exercise in that workout pop up as well as the data for each workout.
 ![Workout-Page-V1](images/workout-page-v1.png)     
 
@@ -131,6 +133,7 @@ This is how the page looks currently, I haven't put in any data for the workout 
 ![Workout Progress Design V1](images/workout-progress-V1.png)
 
 I also made a small change to all of the add workout buttons, that they now take you to the workout page instead of the workout form, which i haven't made yet and do need to make.
+
 ![Alt text](images/home-page-workout-button.png)
 
 ## 06/08/2024
@@ -139,3 +142,16 @@ Last lesson i made a change on how to add and delete exercises from the workouts
 [image]
 I showed my user and they said
 >> yeah haha that's actually way better, looks like it'll be much easier too
+
+It doesn't work just yet but they understood what i mean't when i explained it to them
+
+## 08/08/2024
+
+I finished my workout page entirely, can now add and delete workouts, and the links all lead to the correct pages, the exercise progress and modifying i am still working on. I also haven't styled it yet, I want to finish all my coding this week and then I'll style next week
+
+![Workout Page V2](images/workout-page-V2.png)
+
+In terms of the new modify page, when adding i have fixed a couple of problems, now it is just pulling the id's out of the url and past pages to insert into the contains table I am very close to the page working properly, I am running out of time, will have to do more work at home and during lunch breaks.
+
+![Workout Progress Design V2](images/workout-progress-V2.png)  
+![Url Id](images/url-id.png)

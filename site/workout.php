@@ -33,6 +33,7 @@ echo '<ul id="workout-list">';
 foreach($workouts as $work) {
     echo '<li>';
     echo '<a href="workout_progress.php?id=' . $work['id'] . '">' . $work['name'] . '</a>' ;
+    echo '<td> <a href="delete-workout.php?id=' . $work['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
 
     echo '</li>';
 }
@@ -40,7 +41,7 @@ foreach($workouts as $work) {
 echo '</ul>';
 
 echo '<div id="add-button">
-<a href="form-company.php">
+<a href="form-workout.php">
 Add
 </a>
 </div>';
