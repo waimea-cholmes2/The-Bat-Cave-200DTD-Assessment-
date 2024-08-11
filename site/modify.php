@@ -15,7 +15,8 @@ $db = connectToDB();
 
 consolelog($db);
 
-$query = 'SELECT exercise.name  AS ename
+$query = 'SELECT exercise.name  AS ename,
+                 exercise.id     AS eid
 
             FROM contains
             JOIN exercise ON contains.exercise_id = exercise.id
@@ -39,11 +40,14 @@ echo '<ul id="name-list">';
 echo '<table>
         <tr>
             <th>Name</th>
+            <th>Delete</th>
         </tr>';
  
 foreach($workouts as $work) {
     echo '<tr>';
     echo '<td>' . $work['ename'] . '</td>';
+    echo '<td> <a href="delete-contains.php?workout_id=' . $workoutID . '&exercise_id=' . $work['eid'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
+
  
     echo '</tr>';
 }
@@ -70,7 +74,7 @@ catch (PDOException $e) {
 <form method="post" action="add-exer-work.php?id=<?= $workoutID ?>" >
 
 <label>Exercises</label>
-    <select name ="exercises" required>
+    <select name ="exercise" required>
 
 <?php 
 foreach($exercises as $exercise){

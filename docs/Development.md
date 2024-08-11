@@ -155,3 +155,10 @@ In terms of the new modify page, when adding i have fixed a couple of problems, 
 
 ![Workout Progress Design V2](images/workout-progress-V2.png)  
 ![Url Id](images/url-id.png)
+ 
+## 12/08/24
+I've finished the adding in the modify page, now it is just the deleting, this is so close to being done, ive added the delete button and its just a small problem, but it'll be best if i ask for help next time, tonight i will work on the css, and hopefully get the basics working like the colour of the background and buttons
+
+I also spoke to my user about the modify page to see if they were happy with the progress
+
+>> yeah it's perfect, works exactly the way you said it would, once you have those couple of things fixed and add colour though it'll be even better.

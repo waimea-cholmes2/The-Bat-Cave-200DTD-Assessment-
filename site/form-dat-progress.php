@@ -7,6 +7,17 @@ include 'partials/top.php';
 
 <form method="post" action="add-progress.php">
 
+    <label>Workout</label>
+    <select name ="workout" required>
+
+    <?php 
+    foreach($exercises as $exercise){
+        echo '<option value="'.$exercise['id'].'">';
+        echo   $exercise['name'];
+        echo '</option>';
+    }
+    ?>
+
     <label>Date</label>
     <input name="date" type="date" min="<?= date('Y-m-d') ?>" required>
 
@@ -17,7 +28,7 @@ include 'partials/top.php';
 
 </form>
 
-<a href="list-exercise.php">
+<a href="workout-progress.php">
 Cancel
 </a>
 
