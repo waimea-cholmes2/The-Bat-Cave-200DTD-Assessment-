@@ -162,3 +162,12 @@ I've finished the adding in the modify page, now it is just the deleting, this i
 I also spoke to my user about the modify page to see if they were happy with the progress
 
 >> yeah it's perfect, works exactly the way you said it would, once you have those couple of things fixed and add colour though it'll be even better.
+
+## 13/08/24
+I've started the code validation on all of my code
+here is the result for the exercise list page:
+![Code Validation Exercise List](images/codeV-Elist.png)
+
+I've also started designing the css this is very rough and this is what it looks like:
+![Alt text](images/exercise-list-c-V1.png)
+It's got the basic colours that I want, and most of my website it tables and forms, so I should only need to do the designs once, But if i come in at lunch and do work at home I should get it done in time.

@@ -2,8 +2,8 @@
 require 'lib/utils.php';
 include 'partials/top.php';
  
-$exerciseID = $_GET['exercise_id'] ?? '';
-$workoutID = $_GET['workout_id'] ?? '';
+$exerciseID = $_GET['exercise_id'] ?? null;
+$workoutID = $_GET['workout_id'] ?? null;
  
 // SQL we need to get the company info...
 // SELECT * FROM companies WHERE code = XXX

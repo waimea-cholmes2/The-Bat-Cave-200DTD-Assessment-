@@ -60,7 +60,7 @@ Add Exercise
 </a>
 </div>';
 
-echo '<div id="add-button">
+echo '<div id="add-work-button">
 <a href="workout.php">
 Workouts
 </a>
