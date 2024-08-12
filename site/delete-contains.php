@@ -11,7 +11,7 @@ $workoutID = $_GET['workout_id'] ?? null;
 // Connect to the database
 $db = connectToDB();
 // Company------------------------------------------------------------------------
-// Setup a query to get all company info
+// Setup a query to delete info
 $query = 'DELETE FROM contains WHERE workout_id AND exercise_id=?';
 
  
