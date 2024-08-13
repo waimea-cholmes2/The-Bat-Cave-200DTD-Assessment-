@@ -12,13 +12,13 @@ $workoutID = $_GET['workout_id'] ?? null;
 $db = connectToDB();
 // Company------------------------------------------------------------------------
 // Setup a query to get all company info
-$query = 'DELETE FROM contains WHERE workout_id AND exercise_id=?';
+$query = 'DELETE FROM contains WHERE workout_id=? AND exercise_id=?';
 
  
 // Attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$exerciseID, $workoutID]);  //Pass in the data
+    $stmt->execute([$workoutID, $exerciseID]);  //Pass in the data
 }
 catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);

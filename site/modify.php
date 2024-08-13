@@ -40,7 +40,7 @@ echo '<ul id="name-list">';
 echo '<table>
         <tr>
             <th>Name</th>
-            <th>Delete</th>
+            <th>Remove</th>
         </tr>';
  
 foreach($workouts as $work) {
@@ -58,11 +58,15 @@ echo '</ul>';
 
 
 
-$query = 'SELECT * FROM exercise';
+$query = 'SELECT exercise.name  AS ename,
+                exercise.id     AS eid   
+                from exercise
+                left join contains  ON contains.exercise_id = exercise.id
+                WHERE contains.workout_id = ? AND contains.exercise_id is null';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute();
+    $stmt->execute([$workoutID]);
     $exercises = $stmt->fetchALL();
 }
 catch (PDOException $e) {
@@ -78,8 +82,8 @@ catch (PDOException $e) {
 
 <?php 
 foreach($exercises as $exercise){
-    echo '<option value="'.$exercise['id'].'">';
-    echo   $exercise['name'];
+    echo '<option value="'.$exercise['eid'].'">';
+    echo   $exercise['ename'];
     echo '</option>';
 }
 ?>
