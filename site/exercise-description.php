@@ -32,7 +32,7 @@ catch (PDOException $e) {
 //see what we get back
 consoleLog($exercise);
 
-if($exercise == false) die('Exercide ID is inavlid');
+if($exercise == false) die('Exercise ID is invalid');
 
 echo '<table>
 <tr>

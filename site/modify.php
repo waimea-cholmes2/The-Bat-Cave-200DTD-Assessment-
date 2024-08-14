@@ -58,11 +58,16 @@ echo '</ul>';
 
 
 
-$query = 'SELECT exercise.name  AS ename,
-                exercise.id     AS eid   
-                from exercise
-                left join contains  ON contains.exercise_id = exercise.id
-                WHERE contains.workout_id = ? AND contains.exercise_id is null';
+$query = 'SELECT exercise.id   AS eid,
+exercise.name AS ename
+
+FROM exercise
+CROSS JOIN workouts
+LEFT JOIN contains ON contains.exercise_id = exercise.id 
+           AND contains.workout_id   = workouts.id
+
+WHERE contains.exercise_id IS NULL 
+AND workouts.id = ?';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
