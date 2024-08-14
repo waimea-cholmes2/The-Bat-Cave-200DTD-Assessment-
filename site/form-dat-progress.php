@@ -28,7 +28,7 @@ include 'partials/top.php';
 
 </form>
 
-<a href="workout-progress.php">
+<a href="workout_progress.php">
 Cancel
 </a>
 
