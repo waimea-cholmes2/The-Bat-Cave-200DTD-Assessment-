@@ -23,7 +23,7 @@ echo '<p>reps: ' . $reps;
 $db = connectToDB();
 
 
-//set up query to get all companny info
+//set up query to insert all new exercise info into the exercise table
 $query = 'INSERT INTO exercise (name, description, sets, reps) VALUES (?,?,?,?)';
 //attempt to run the query
 try {

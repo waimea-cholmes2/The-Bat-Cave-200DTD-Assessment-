@@ -22,7 +22,7 @@ echo '<p>workout: ' . $workout;
 $db = connectToDB();
 
 
-//set up query to get all company info
+//set up query to insert all info into database
 $query = 'INSERT INTO date_and_time (date,time,workout) VALUES (?,?,?)';
 //attempt to run the query
 try {

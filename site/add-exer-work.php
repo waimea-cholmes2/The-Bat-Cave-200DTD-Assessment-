@@ -3,7 +3,8 @@ require 'lib/utils.php';
 include 'partials/top.php';
  
 echo '<h1>Adding exercise to workout database</h1>';
- 
+
+//Get form data 
 consoleLog($_POST, 'POST DATA');
 
 $exerciseID  = $_POST['exercise'];
@@ -11,7 +12,7 @@ $exerciseID  = $_POST['exercise'];
 
 consoleLog($_GET, 'Get Data');
  
-//Get form data
+
 
 $workoutID = $_GET['id'] ?? null;
 
@@ -19,7 +20,7 @@ $workoutID = $_GET['id'] ?? null;
 //Connect to the database
 $db = connectToDB();
  
- 
+ //Set up a query to insert into the contains table
 $query = 'INSERT INTO contains (workout_id, exercise_id) VALUES (?, ?)';
 //Attempt to run the query
  
