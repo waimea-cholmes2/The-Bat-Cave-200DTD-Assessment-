@@ -78,6 +78,9 @@ catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
     die('There was an error getting data from the database');
 }
+
+if($exercises == false) die('You have selected all exercises for this workout');
+
 ?>
 
 <form method="post" action="add-exer-work.php?id=<?= $workoutID ?>" >
