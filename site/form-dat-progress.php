@@ -1,11 +1,28 @@
 <?php
 require 'lib/utils.php';
 include 'partials/top.php'; 
-?>
 
+
+$db = connectToDB();
+
+consolelog($db);
+//set up query to get all companny info
+$query = 'SELECT * FROM workouts';
+//attempt to run the query
+try {
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $workouts = $stmt->fetchALL();
+}
+catch (PDOException $e) {
+    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+    die('There was an error getting data from the database');
+}
+
+?>
 <h2>Add Progress</h2>
 
-<form method="post" action="add-progress.php">
+<form method="post" action="add-progress.php?id=<?= $workoutID ?>">
 
     <label>Workout</label>
     <select name ="workout" required>
@@ -28,7 +45,7 @@ include 'partials/top.php';
 
 </form>
 
-<a href="workout_progress.php">
+<a href="workout_progress.php?=<?= $workoutID ?>">
 Cancel
 </a>
 

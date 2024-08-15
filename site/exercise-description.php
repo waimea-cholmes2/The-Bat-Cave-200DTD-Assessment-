@@ -37,7 +37,6 @@ if($exercise == false) die('Exercise ID is invalid');
 echo '<table>
 <tr>
     <th>Description</th>
-    <th></th>
 </tr>';
 
   echo '<tr>';

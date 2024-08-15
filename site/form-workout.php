@@ -14,7 +14,7 @@ include 'partials/top.php';
 
 </form>
 
-<a href="list-exercise.php">
+<a href="workout.php">
 Cancel
 </a>
 

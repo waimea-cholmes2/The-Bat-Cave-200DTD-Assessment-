@@ -18,7 +18,37 @@ body {
 }
 
 
+
+
+/* NAV ****************************************************/
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+ 
+nav a.active {
+    color: black;
+    text-decoration: underline;
+}
+
 /* HEADER ****************************************************/
+h1 {
+    color: white;
+}
+
+h2 {
+    color:white;
+}
 
 header {
     display: flex;
@@ -36,26 +66,177 @@ header h1 {
     color: white;
 }
 
+/*LIST*********************************************************/
+#workout-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: max-content;
+    margin: 1rem auto
+}
+ 
+#workout-list li{
+    margin-bottom: 0.3rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    background-color: red;
+    color: white;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+
+/* BACK BUTTON ************************************************/
+#back-button {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+}
+
+#back-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+/* ADD BUTTON ************************************************/
+#add-button {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+}
+
+#add-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+/* WORKOUT BUTTON ************************************************/
+#workout-button {
+    position: fixed;
+    left: 2rem;
+    bottom: 5rem;
+}
+
+#workout-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+/* EXERCISE BUTTON ************************************************/
+#exercise-button {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+}
+
+#exercise-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+/* MODIFY BUTTON ************************************************/
+
+#modify-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+/* PROGRESS BUTTON ************************************************/
+
+#progress-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 6.5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+ 
+ 
 /* TABLES *****************************************************/
+
+@media (max-width:500px) {
+    table{font-size: 0.7rem;
+    }
+}
+@media (max-width:430px) {
+    table{font-size: 0.5rem;
+    }
+}
+
+@media (max-width:380px) {
+    table{font-size: 0.4rem;
+    }
+}
 table {
     display: flex;
     width: 100%;
+    max-width: max-content;
     align-content: center;
     border-collapse: collapse;
     margin: 1rem auto;
     padding: 1rem;
- 
-    /* border: rgb(100, 100, 100) solid 4px; */
+    padding-right: 2rem;
     border-radius: 0rem;
+
  
  }
  
  th {
-     padding: 0.3rem 1rem;
+     /* padding: 0.3rem 1rem; */
      border: rgb(100, 100, 100) solid 4px;
      background-color: red;
      color: white;
      text-decoration: solid;
+     width: 100%;
+     max-width: max-content;
  }
  
  td {
@@ -63,18 +244,25 @@ table {
      padding: 0.2rem 1rem;
      background-color: #14171E;
     color: white;
+    width: 100%;
+    max-width: max-content;
  }
 
 
 
+ /* 
+
  /* FOOTER ****************************************************/
  
 footer {
-    padding: 1rem;
-    text-align: center;
-    border-top:rgb(100, 100, 100) solid 4px;
-    background-color: red;
-    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    background-color:red;
     color: white;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: auto;
+    bottom:0;
 }
 

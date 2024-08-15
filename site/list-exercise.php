@@ -38,9 +38,9 @@ consoleLog($exercise);
 echo '<table>
 <tr>
     <th>Name</th>
-    <th>sets</th>
-    <th>reps</th>
-    <th></th>
+    <th>Sets</th>
+    <th>Reps</th>
+    <th>Delete</th>
 </tr>';
 
 foreach($exercise as $exer) {
@@ -54,13 +54,13 @@ foreach($exercise as $exer) {
 
 echo '</table>';
 
-echo '<div id="add-button">
-<a href="form-exercise.php">
+echo '<div id="exercise-button">
+<a href="add-exercise.php">
 Add Exercise
 </a>
 </div>';
 
-echo '<div id="add-work-button">
+echo '<div id="workout-button">
 <a href="workout.php">
 Workouts
 </a>

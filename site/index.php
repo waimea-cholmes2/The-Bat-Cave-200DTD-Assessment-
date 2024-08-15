@@ -5,7 +5,7 @@ include 'partials/top.php';
 
 <h1><?= SITE_LOGO ?></h1>
 
-<div id="add-button">
+<div id="exercise-button">
 <a href="list-exercise.php">
 Exercise List
 </a>

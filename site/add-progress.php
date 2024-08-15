@@ -11,6 +11,7 @@ $date  = $_POST['date'];
 $time   = $_POST['time'];
 $workout     = $_POST['workout'];
 
+//Print all of the data that has been submitted into the form
 echo '<p>date: ' . $date;
 echo '<p>time: ' . $time;
 echo '<p>workout: ' . $workout;
@@ -36,6 +37,7 @@ catch (PDOException $e) {
 
 echo '<p>Success!</p>';
 
+header('location: workout_progress.php?id=' . $workoutID);
 
  include 'partials/bottom.php'; 
  ?>

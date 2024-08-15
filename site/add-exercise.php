@@ -12,6 +12,7 @@ $description   = $_POST['description'];
 $sets     = $_POST['sets'];
 $reps     = $_POST['reps'];
 
+//Print all of the data that has been submitted into the form
 echo '<p>name: ' . $name;
 echo '<p>description: ' . $description;
 echo '<p>sets: ' . $sets;
@@ -37,7 +38,7 @@ catch (PDOException $e) {
 
 echo '<p>Success!</p>';
 
-
+//Button to go back to exercise list
 echo '<a href="list-exercise.php">
 Back
 </a>';

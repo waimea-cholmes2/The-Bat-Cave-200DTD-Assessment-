@@ -11,7 +11,11 @@ if($workoutID == null) die('Missing ID');
 $db = connectToDB();
 
 
-
+echo '<div id="back-button">
+<a href="workout.php">
+Back
+</a>
+</div>';
 
 consolelog($db);
 
@@ -77,7 +81,7 @@ catch (PDOException $e) {
 //see what we get back
 consoleLog($date_and_time);
 
-if($date_and_time == false) die('Data ID is inavlid');
+if($date_and_time == false) die('You have no progress on this workout, <a href="form-dat-progress.php?id='. $workoutID . '">Add</a>');
 
 echo '<table>
 <tr>
@@ -94,11 +98,13 @@ foreach($date_and_time as $dat) {
 
 echo '</table>';
 
-echo '<div id="add-button">
+echo '<div id="progress-button">
 <a href="form-dat-progress.php">
 Add Progress
 </a>
 </div>';
+
+
 
 
 
