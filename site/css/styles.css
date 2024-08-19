@@ -50,6 +50,12 @@ h2 {
     color:white;
 }
 
+h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -97,6 +103,19 @@ header h1 {
 }
 
 #back-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+#back-button-workout a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +176,25 @@ header h1 {
 }
 
 #exercise-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+#exercise-button-workout {
+    position: fixed;
+    left: 2rem;
+    bottom: 5rem;
+}
+
+#exercise-button-workout a {
     display: flex;
     justify-content: center;
     align-items: center;

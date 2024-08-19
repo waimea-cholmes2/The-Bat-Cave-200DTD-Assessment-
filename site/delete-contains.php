@@ -2,14 +2,16 @@
 require 'lib/utils.php';
 include 'partials/top.php';
  
-//Get info from URL
 $exerciseID = $_GET['exercise_id'] ?? null;
 $workoutID = $_GET['workout_id'] ?? null;
  
+// SQL we need to get the company info...
+// SELECT * FROM companies WHERE code = XXX
  
 // Connect to the database
 $db = connectToDB();
-// Setup a query to delete info from contains table
+// Company------------------------------------------------------------------------
+// Setup a query to get all company info
 $query = 'DELETE FROM contains WHERE workout_id=? AND exercise_id=?';
 
  

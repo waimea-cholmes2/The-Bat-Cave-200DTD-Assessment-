@@ -171,7 +171,3 @@ here is the result for the exercise list page:
 I've also started designing the css this is very rough and this is what it looks like:
 ![Alt text](images/exercise-list-c-V1.png)
 It's got the basic colours that I want, and most of my website it tables and forms, so I should only need to do the designs once, But if i come in at lunch and do work at home I should get it done in time.
-
-
-## 14/08/24
-I finished the modify page by remaking the query with help from Mr Copley to show only the exercises that were not selected, i've also added code so that when all exercises are selected it'll put up a message, tomorrow in class i need to get my computer to work at home, because i couldn't work on my css as I wouldn't be able to see the product. I will upload images tomorrow.

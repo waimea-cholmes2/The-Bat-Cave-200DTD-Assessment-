@@ -1,13 +1,16 @@
 <?php
 require 'lib/utils.php';
 include 'partials/top.php';
-//Get info from URL 
+ 
 $workoutID = $_GET['id'] ?? '';
  
+// SQL we need to get the company info...
+// SELECT * FROM companies WHERE code = XXX
  
 // Connect to the database
 $db = connectToDB();
-// Setup a query to delete info from the workout table
+// Company------------------------------------------------------------------------
+// Setup a query to get all company info
 $query = 'DELETE FROM workouts WHERE id=?';
 
  
@@ -18,6 +21,6 @@ try {
 }
 catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
-    die('There was an error updating workout data from the database');
+    die('Please remove all exercises from the workout in the modify page before you delete the workout. <a href="workout.php">Back</a>');
 }
 header('location: workout.php');

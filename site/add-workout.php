@@ -17,7 +17,7 @@ echo '<p>name: ' . $name;
 $db = connectToDB();
 
 
-//set up query to insert all workout info into the workout table
+//set up query to get all companny info
 $query = 'INSERT INTO workouts (name) VALUES (?)';
 //attempt to run the query
 try {

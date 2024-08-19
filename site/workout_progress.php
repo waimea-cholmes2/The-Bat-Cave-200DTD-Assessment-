@@ -11,7 +11,7 @@ if($workoutID == null) die('Missing ID');
 $db = connectToDB();
 
 
-echo '<div id="back-button">
+echo '<div id="back-button-workout">
 <a href="workout.php">
 Back
 </a>

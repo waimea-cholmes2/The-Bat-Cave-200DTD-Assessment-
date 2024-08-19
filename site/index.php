@@ -3,7 +3,7 @@ require 'lib/utils.php';
 include 'partials/top.php'; 
 ?>
 
-<h1><?= SITE_LOGO ?></h1>
+<h3><?= SITE_LOGO ?></h3>
 
 <div id="exercise-button">
 <a href="list-exercise.php">

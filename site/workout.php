@@ -46,4 +46,10 @@ Add
 </a>
 </div>';
 
+echo '<div id="exercise-button-workout">
+<a href="list-exercise.php">
+Exercise List
+</a>
+</div>';
+
  include 'partials/bottom.php'; ?>
