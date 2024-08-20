@@ -94,10 +94,10 @@ foreach($date_and_time as $dat) {
   echo '<tr>';
   echo '<td>' . $dat['datd'] . '</td>';
   echo '<td>' . $dat['datt'] . '</td>';
-  echo '<td> <a href="delete-progress.php?id=' . $dat['id'] . ' &workoutid= '. $workoutID . ' " onclick="return confirm(`Are you sure?`);">🗑️</a>';
+  echo '<td> <a href="delete-progress.php?id=' . $dat['id'] .  ' &wid= ' . $workoutID . ' " onclick="return confirm(`Are you sure?`);">🗑️</a>';
   echo '</tr>';
 }
-
+// ' &workoutid= '. $workoutID .
 echo '</table>';
 
 echo '<div id="progress-button">

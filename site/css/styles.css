@@ -213,6 +213,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
     height: 2rem;
     width: 6rem;
@@ -228,6 +229,7 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
     height: 2rem;
     width: 6.5rem;

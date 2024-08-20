@@ -2,16 +2,14 @@
 require 'lib/utils.php';
 include 'partials/top.php';
  
+// Get the id's from the URL
 $progressID = $_GET['id'] ?? '';
-$workoutID = $_GET['workoutid'] ?? null;
- 
-// SQL we need to get the company info...
-// SELECT * FROM companies WHERE code = XXX
+$workoutID = $_GET['wid'] ?? null;
  
 // Connect to the database
 $db = connectToDB();
-// Company------------------------------------------------------------------------
-// Setup a query to get all company info
+
+// Setup a query to delete some date and time info
 $query = 'DELETE FROM date_and_time WHERE id=?';
 
  
@@ -24,4 +22,6 @@ catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
     die('There was an error removing Progress');
 }
-// header('location: workout_progress.php?id=' . $workoutID);
+
+// Go back to page with info
+header('location: workout_progress.php?id=' . $workoutID);
