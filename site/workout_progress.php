@@ -63,8 +63,9 @@ Modify
 </a>
 </div>';
 
-$query = 'SELECT date_and_time.date    AS datd,
-                 date_and_time.time     AS datt
+$query = 'SELECT date_and_time.id      AS id,
+                 date_and_time.date    AS datd,
+                 date_and_time.time    AS datt
 
                  FROM date_and_time WHERE workout = ?';
 
@@ -82,24 +83,25 @@ catch (PDOException $e) {
 consoleLog($date_and_time);
 
 if($date_and_time == false) die('You have no progress on this workout, <a href="form-dat-progress.php?id='. $workoutID . '">Add</a>');
-
 echo '<table>
 <tr>
     <th>Date</th>
     <th>Time</th>
+    <th>Delete Progress</th>
 </tr>';
 
 foreach($date_and_time as $dat) {
   echo '<tr>';
   echo '<td>' . $dat['datd'] . '</td>';
   echo '<td>' . $dat['datt'] . '</td>';
+  echo '<td> <a href="delete-progress.php?id=' . $dat['id'] . ' &workoutid= '. $workoutID . ' " onclick="return confirm(`Are you sure?`);">🗑️</a>';
   echo '</tr>';
 }
 
 echo '</table>';
 
 echo '<div id="progress-button">
-<a href="form-dat-progress.php">
+<a href="form-dat-progress.php?id='. $workoutID . '">
 Add Progress
 </a>
 </div>';

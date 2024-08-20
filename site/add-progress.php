@@ -9,12 +9,15 @@ consolelog($_POST, 'POST DATA');
 //get form data
 $date  = $_POST['date'];
 $time   = $_POST['time'];
-$workout     = $_POST['workout'];
+
+// and the id from the ULR
+consoleLog($_GET, 'Get Data');
+$workoutID = $_GET['id'] ?? null;
 
 //Print all of the data that has been submitted into the form
 echo '<p>date: ' . $date;
 echo '<p>time: ' . $time;
-echo '<p>workout: ' . $workout;
+echo '<p>workout: ' . $workoutID;
 
 
 
@@ -28,7 +31,7 @@ $query = 'INSERT INTO date_and_time (date,time,workout) VALUES (?,?,?)';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$date,$time,$workout]);
+    $stmt->execute([$date,$time,$workoutID]);
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);

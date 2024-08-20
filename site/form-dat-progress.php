@@ -5,6 +5,10 @@ include 'partials/top.php';
 
 $db = connectToDB();
 
+// and the id from the ULR
+consoleLog($_GET, 'Get Data');
+$workoutID = $_GET['id'] ?? null;
+
 consolelog($db);
 //set up query to get all companny info
 $query = 'SELECT * FROM workouts';
@@ -23,17 +27,6 @@ catch (PDOException $e) {
 <h2>Add Progress</h2>
 
 <form method="post" action="add-progress.php?id=<?= $workoutID ?>">
-
-    <label>Workout</label>
-    <select name ="workout" required>
-
-    <?php 
-    foreach($exercises as $exercise){
-        echo '<option value="'.$exercise['id'].'">';
-        echo   $exercise['name'];
-        echo '</option>';
-    }
-    ?>
 
     <label>Date</label>
     <input name="date" type="date" min="<?= date('Y-m-d') ?>" required>

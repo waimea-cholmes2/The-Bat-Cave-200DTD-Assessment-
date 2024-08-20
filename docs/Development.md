@@ -171,3 +171,7 @@ here is the result for the exercise list page:
 I've also started designing the css this is very rough and this is what it looks like:
 ![Alt text](images/exercise-list-c-V1.png)
 It's got the basic colours that I want, and most of my website it tables and forms, so I should only need to do the designs once, But if i come in at lunch and do work at home I should get it done in time.
+
+## 21/08/24
+I've finished my add progress button, and it now adds and links to the workout it was on before, ill fix the delting issue and add picture tomorrow, I've also shown my end-user the product for the final time.
+>> yeah that's all perfect, does exactly what I want

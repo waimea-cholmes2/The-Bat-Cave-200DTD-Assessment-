@@ -13,12 +13,12 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-My brother needs a way to help him track his workouts so he can see his progress overtime to see if he is improving in terms of weight and reps, But it is not easy for him to keep track of the amount of sets and reps he does, as he does many exercises in each workout, a website to help him keep track of this would be very helpful.
+My brother needs a way to help him track his workouts so he can see his progress overtime, But it is not easy for him to keep track of the amount of sets and reps he does, as he does many exercises in each workout, a website to help him keep track of this would be very helpful.
 
 ### End-User Requirements
 
-The user of my website will be a 18 year old who wants to track his workouts so he can see his improvement over time.
-The user wants a way to see lists of the weight and reps he has done on one exercise over a period of time, they could do this via mobile phone or computer their it skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
+The user of my website will be a 18 year old who wants to track his workouts so he can see his progress over time.
+The user wants a way to see lists of the weight and reps he has done on one exercise, they could do this via mobile phone or computer their it skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
 
 ### Proposed Solution
 
