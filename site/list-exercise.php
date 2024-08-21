@@ -55,7 +55,7 @@ foreach($exercise as $exer) {
 echo '</table>';
 
 echo '<div id="exercise-button">
-<a href="add-exercise.php">
+<a href="form-exercise.php">
 Add Exercise
 </a>
 </div>';
