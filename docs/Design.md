@@ -76,7 +76,8 @@ I will need to avoid putting in any racist or bigoted details in the system and 
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Database V3](images/database-design-V3.png)
+
 
 ### User Interface Design
 
@@ -89,7 +90,8 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Database Final](images/database-design-final.png)
+I added the date and time table as i realised i actually needed a way to track the progress of each workout, I also removed the muscle group section from the workout table, as one workout can contain exercises that can target different muscle groups than others in the same workout.
 
 ### User Interface Design
 

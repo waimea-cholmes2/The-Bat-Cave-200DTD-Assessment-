@@ -25,7 +25,6 @@ echo '<p>workout: ' . $workoutID;
 //connect to data base
 $db = connectToDB();
 
-
 //set up query to insert all info into database
 $query = 'INSERT INTO date_and_time (date,time,workout) VALUES (?,?,?)';
 //attempt to run the query
