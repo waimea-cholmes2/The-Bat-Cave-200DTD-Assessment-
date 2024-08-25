@@ -29,7 +29,7 @@ $query = 'INSERT INTO exercise (name, description, sets, reps) VALUES (?,?,?,?)'
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([ $name, $description, $sets, $reps]);
+    $stmt->execute([ $name, $description, $sets, $reps]); // pass in the data
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);

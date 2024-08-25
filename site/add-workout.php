@@ -22,7 +22,7 @@ $query = 'INSERT INTO workouts (name) VALUES (?)';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([ $name ]);
+    $stmt->execute([ $name ]); // pass in data
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
@@ -31,7 +31,7 @@ catch (PDOException $e) {
 
 echo '<p>Success!</p>';
 
-
+//button to go back
 echo '<a href="workout.php">
 Back
 </a>';

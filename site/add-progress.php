@@ -30,7 +30,7 @@ $query = 'INSERT INTO date_and_time (date,time,workout) VALUES (?,?,?)';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$date,$time,$workoutID]);
+    $stmt->execute([$date,$time,$workoutID]); //pass in the data
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);

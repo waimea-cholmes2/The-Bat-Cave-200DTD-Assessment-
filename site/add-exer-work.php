@@ -22,7 +22,7 @@ $query = 'INSERT INTO contains (workout_id, exercise_id) VALUES (?, ?)';
 //Attempt to run the query 
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$workoutID, $exerciseID]);
+    $stmt->execute([$workoutID, $exerciseID]); // pass in data
 }
 catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB Booking Add', ERROR);

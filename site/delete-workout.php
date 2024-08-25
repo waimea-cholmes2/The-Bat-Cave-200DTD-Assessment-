@@ -2,15 +2,13 @@
 require 'lib/utils.php';
 include 'partials/top.php';
  
+// Get ID from URL
 $workoutID = $_GET['id'] ?? '';
  
-// SQL we need to get the company info...
-// SELECT * FROM companies WHERE code = XXX
  
 // Connect to the database
 $db = connectToDB();
-// Company------------------------------------------------------------------------
-// Setup a query to get all company info
+// Setup a query to delete info from workout table
 $query = 'DELETE FROM workouts WHERE id=?';
 
  

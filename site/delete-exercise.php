@@ -10,7 +10,7 @@ $exerciseId = $_GET['id'] ?? '';
 // Connect to the database
 $db = connectToDB();
 // Company------------------------------------------------------------------------
-// Setup a query to get all company info
+// Setup a query to delete info from exercise table
 $query = 'DELETE FROM exercise WHERE id=?';
 
  
@@ -23,4 +23,5 @@ catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
     die('There was an error updating exercise data from the database');
 }
+// Go back to exercise list
 header('location: list-exercise.php');
