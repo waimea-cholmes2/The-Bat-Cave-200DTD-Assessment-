@@ -18,7 +18,7 @@ My brother needs a way to help him track his workouts so he can see his progress
 ### End-User Requirements
 
 The user of my website will be a 18 year old who wants to track his workouts so he can see his progress over time.
-The user wants a way to see lists of the weight and reps he has done on one exercise, they could do this via mobile phone or computer their it skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
+The user wants a way to see lists of the weight and reps he does on one exercise, they could do this via mobile phone or computer. Their IT skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
 
 ### Proposed Solution
 
@@ -81,7 +81,7 @@ I will need to avoid putting in any racist or bigoted details in the system and 
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Figma Design Final](images/coloured-figma-UI-V2.png)
 
 
 -------------------------------------------------
@@ -110,9 +110,9 @@ Replace this text with a brief evaluation of how well you met the needs of your 
 
 Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-### Review of IMPLICATION NAME HERE
+### Review of Functionality
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I sucessfully addressed this in my system by thouroughly checking that every single use of my sytem was functional, and there was nothing that the user could do that would lead to a failure or error in the sytem that would leave the the user with no options, or see an error message.
 
 ### Review of IMPLICATION NAME HERE
 
