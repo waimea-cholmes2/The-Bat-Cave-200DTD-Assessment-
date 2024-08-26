@@ -98,7 +98,7 @@ foreach($date_and_time as $dat) {
   echo '</tr>';
 }
 echo '</table>';
-//Button to take the user to the add progressn form
+//Button to take the user to the add progress form
 echo '<div id="progress-button">
 <a href="form-dat-progress.php?id='. $workoutID . '">
 Add Progress

@@ -112,7 +112,7 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 ### Review of Functionality
 
-I sucessfully addressed this in my system by thouroughly checking that every single use of my sytem was functional, and there was nothing that the user could do that would lead to a failure or error in the sytem that would leave the the user with no options, or see an error message.
+I successfully addressed this in my system by thoroughly checking that every single use of my system was functional, and there was nothing that the user could do that would lead to a failure or error in the sytem that would leave the the user with no options, or see an error message.
 
 ### Review of IMPLICATION NAME HERE
 
