@@ -10,7 +10,7 @@ include 'partials/top.php';
 $db = connectToDB();
 
 consolelog($db);
-//set up query to get all companny info
+//set up query to get all cworkout info
 $query = 'SELECT * FROM workouts';
 //attempt to run the query
 try {
@@ -27,7 +27,7 @@ catch (PDOException $e) {
 consoleLog($workouts);
 
 
-
+//Set up a list to show all workouts
 echo '<ul id="workout-list">';
 
 foreach($workouts as $work) {
@@ -39,13 +39,13 @@ foreach($workouts as $work) {
 }
 
 echo '</ul>';
-
+//Button to add workouts
 echo '<div id="add-button">
 <a href="form-workout.php">
 Add
 </a>
 </div>';
-
+//Button to go to the exercise list
 echo '<div id="exercise-button-workout">
 <a href="list-exercise.php">
 Exercise List

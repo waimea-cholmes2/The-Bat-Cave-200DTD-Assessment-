@@ -11,16 +11,13 @@ if($exerciseid == null) die('Missing ID');
 $db = connectToDB();
 
 consolelog($_GET);
-
+// Set up a query to pull the exercise description from the database
 $query = 'SELECT * FROM exercise WHERE id = ?';
 
-// $query = 'SELECT exercise.description    AS edescription
-
-//                 FROM exercise WHERE name = ?
-
+//Attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$exerciseid]);
+    $stmt->execute([$exerciseid]); //Pass in the data
     $exercise = $stmt->fetch();
 }
 catch (PDOException $e) {
@@ -31,9 +28,10 @@ catch (PDOException $e) {
 
 //see what we get back
 consoleLog($exercise);
-
+//Fail if the data was noy given properly
 if($exercise == false) die('Exercise ID is invalid');
 
+// Make a table for the exercise descriprion
 echo '<table>
 <tr>
     <th>Description</th>
@@ -44,6 +42,7 @@ echo '<table>
   echo '</tr>';
   echo '</table>';
 
+//Button to go back to exercise list
 echo '<div id="button">
 <a href="list-exercise.php">
 Back

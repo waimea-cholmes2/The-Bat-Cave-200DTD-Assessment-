@@ -5,24 +5,11 @@ include 'partials/top.php';
 
 $db = connectToDB();
 
-// and the id from the ULR
+// and the ID's from the URL
 consoleLog($_GET, 'Get Data');
 $workoutID = $_GET['id'] ?? null;
 
-consolelog($db);
-//set up query to get all companny info
-$query = 'SELECT * FROM workouts';
-//attempt to run the query
-try {
-    $stmt = $db->prepare($query);
-    $stmt->execute();
-    $workouts = $stmt->fetchALL();
-}
-catch (PDOException $e) {
-    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error getting data from the database');
-}
-
+//Form to add info into date and time table
 ?>
 <h2>Add Progress</h2>
 
@@ -37,7 +24,7 @@ catch (PDOException $e) {
     <input type="submit" value="Add">
 
 </form>
-
+<?=//Button to go back to the workout progress page ?>
 <a href="workout_progress.php?=<?= $workoutID ?>">
 Cancel
 </a>

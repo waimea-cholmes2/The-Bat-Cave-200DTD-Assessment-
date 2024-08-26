@@ -14,17 +14,17 @@ $db = connectToDB();
 
 
 consolelog($db);
-
+//Query which gets info from the exercise & contains table
 $query = 'SELECT exercise.name  AS ename,
                  exercise.id     AS eid
 
             FROM contains
             JOIN exercise ON contains.exercise_id = exercise.id
             WHERE contains.workout_id = ?';
-
+//Attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$workoutID]);
+    $stmt->execute([$workoutID]);//pass in data
     $workouts = $stmt->fetchALL();
 }
 catch (PDOException $e) {
@@ -34,7 +34,7 @@ catch (PDOException $e) {
  
 // See what we got back
 consoleLog($workouts);
- 
+ //List  all exercises in  the workout
 echo '<ul id="name-list">';
  
 echo '<table>
@@ -57,7 +57,7 @@ echo '</table>';
 echo '</ul>';
 
 
-
+//Set up a query which selects all exercises which are not on the current workout
 $query = 'SELECT exercise.id   AS eid,
 exercise.name AS ename
 
@@ -71,13 +71,14 @@ AND workouts.id = ?';
 //attempt to run the query
 try {
     $stmt = $db->prepare($query);
-    $stmt->execute([$workoutID]);
+    $stmt->execute([$workoutID]);//Pass in data
     $exercises = $stmt->fetchALL();
 }
 catch (PDOException $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
     die('There was an error getting data from the database');
 }
+//Form to add exercises into workouts
 ?>
 
 <form method="post" action="add-exer-work.php?id=<?= $workoutID ?>" >
@@ -98,6 +99,7 @@ foreach($exercises as $exercise){
 </form>
 
 <?php
+//Button to exit the modify page and go back to the progress page
 echo '<div id="modify-button">
 <a href="workout_progress.php?id='. $workoutID . '">
 Done

@@ -9,7 +9,7 @@ echo '<h1>Exercise List</h1>';
 $db = connectToDB();
 
 consolelog($db);
-
+//Query which selects info from exercise table
 $query = 'SELECT exercise.id     AS id,
                  exercise.name     AS ename,
                  exercise.sets      AS esets,
@@ -19,7 +19,7 @@ $query = 'SELECT exercise.id     AS id,
                  FROM exercise
 
                  ORDER BY exercise.name ASC';
-
+//Attemping to run the query
 try {
     $stmt = $db->prepare($query);
     $stmt->execute();
@@ -34,7 +34,7 @@ catch (PDOException $e) {
 consoleLog($exercise);
 
 
-
+//Table which list all the info shown in the exercise list page
 echo '<table>
 <tr>
     <th>Name</th>
@@ -53,13 +53,13 @@ foreach($exercise as $exer) {
 }
 
 echo '</table>';
-
+//Button to add an exercise
 echo '<div id="exercise-button">
 <a href="form-exercise.php">
 Add Exercise
 </a>
 </div>';
-
+//Button to go to the workout page
 echo '<div id="workout-button">
 <a href="workout.php">
 Workouts

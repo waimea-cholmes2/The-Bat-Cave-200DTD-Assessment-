@@ -21,4 +21,5 @@ catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
     die('Please remove all exercises from the workout in the modify page before you delete the workout. <a href="workout.php">Back</a>');
 }
+// Send back to workout page
 header('location: workout.php');
