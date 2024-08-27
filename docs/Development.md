@@ -183,6 +183,6 @@ here is a couple examples of the updated version of the buttons:
 ![Exercise Button Final Design](images/exercise-button-final.png)
 ![Exercise List Buttons Final](images/exercise-list-final.png)
 
-I also asked my end user if they wanted the hone  button any closer or under the title of the website
+I also asked my end user if they wanted the home  button any closer or under the title of the website
 
 >> Nah just leave it there, so it's out of the way.

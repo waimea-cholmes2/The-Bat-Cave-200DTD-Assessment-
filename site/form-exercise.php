@@ -2,7 +2,7 @@
 require 'lib/utils.php';
 include 'partials/top.php'; 
 ?>
-<?=//Form to add info into exercise table?>
+
 <h2>New Exercise</h2>
 
 <form method="post" action="add-exercise.php">
@@ -22,7 +22,7 @@ include 'partials/top.php';
     <input type="submit" value="Add">
 
 </form>
-<?=//Button that can take you back to the exercise list page?>
+
 <a href="list-exercise.php">
 Cancel
 </a>

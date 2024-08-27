@@ -13,7 +13,7 @@ Assessment Standards: **91892** and **91893**
 
 ### Identified Need or Problem
 
-My brother needs a way to help him track his workouts so he can see his progress overtime, But it is not easy for him to keep track of the amount of sets and reps he does, as he does many exercises in each workout, a website to help him keep track of this would be very helpful.
+My brother needs a way to help him track his workouts so he can see his progress overtime, But it is not easy for him to keep track of the amount of sets and reps he does for each exercise, as he does many exercises in each workout, a website to help him keep track of this would be very helpful.
 
 ### End-User Requirements
 
@@ -43,7 +43,7 @@ The usability implications of a digital technology or digital outcome relate to 
 
 I will need to design my system to be as usable as possible as the user may not be as experienced with It as i am, I will need to make sure my website could be used by anyone with any level if IT experience
 
-When I am designing my website I will refer to nielsen's heuristics and try to make sure that the UI meets them as best as possible, specifically I want my UI to Follow standard conventions, have everything in the correct place where it would normally be, I want the behaviour of the outcome to be familiar andd logical s anyone could make sense of it, And i want thr user to be given clear directions n what to do and have a clear way on how to undo/cancel. And i always want the user to be aware of what is happening, so they do not get confused if the system takes longer to do something than normal.
+When I am designing my website I will refer to nielsen's heuristics and try to make sure that the UI meets them as best as possible, specifically I want my UI to Follow standard conventions, have everything in the correct place where it would normally be, I want the behaviour of the outcome to be familiar andd logical so anyone could make sense of it, And i want the user to be given clear directions on what to do and have a clear way on how to undo/cancel. And i always want the user to be aware of what is happening, so they do not get confused if the system takes longer to do something than normal.
 
 ### Aesthetics
 
@@ -104,7 +104,8 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+I met all of the needs of my end user, as my systen is able to help my brother track each of his workouts, add and remove exercises from each workouts, as well as him being able to track when he has done each workout with the progress section, he can also add and remove exercises and workouts.
+
 
 ### Meeting the System Requirements
 
@@ -114,10 +115,16 @@ Replace this text with a brief evaluation of how well you met the requirements t
 
 I successfully addressed this in my system by thoroughly checking that every single use of my system was functional, and there was nothing that the user could do that would lead to a failure or error in the sytem that would leave the the user with no options, or see an error message.
 
-### Review of IMPLICATION NAME HERE
+### Review of Usability 
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I successfully addressed this in my system through ensuring that everything in my system is logical and it makes sense, my user should have no difficulties when it comes to undertanding how to navigate the website as it is all straigh forward, and they also should have no problem when understanduing how to undo/cancel something.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aestestics
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+I successfully addressed this in my system through constantly shwoing my designs to my end user, and altering the colours and making other smaller design changes based on their opinions.
+![Home Screen Aestestics](<images/home-page-aes.png>)
+
+
+### Review of Social
+
+I successfully addressed this implication in my system by ensuring that i never used any racist or bigoted terms, I also didn't use any pronouns in my system, which has 
