@@ -8,7 +8,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- The title at the top and the link back to the home page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

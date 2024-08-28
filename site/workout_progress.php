@@ -82,7 +82,7 @@ catch (PDOException $e) {
 //see what we get back
 consoleLog($date_and_time);
 //Set up a table top show all date and time info in the current exercise
-if($date_and_time == false) die('You have no progress on this workout, <a href="form-dat-progress.php?id='. $workoutID . '">Add</a>');
+if($date_and_time == false) die('You have no progress on this workout <div id="form-button"> <a href="form-dat-progress.php?id='. $workoutID . '">Add</a>');
 echo '<table>
 <tr>
     <th>Date</th>

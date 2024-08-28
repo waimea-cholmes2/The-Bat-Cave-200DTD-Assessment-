@@ -18,11 +18,11 @@ My brother needs a way to help him track his workouts so he can see his progress
 ### End-User Requirements
 
 The user of my website will be a 18 year old who wants to track his workouts so he can see his progress over time.
-The user wants a way to see lists of the weight and reps he does on one exercise, they could do this via mobile phone or computer. Their IT skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
+The user wants a way to see lists of the sets he does on each  exercise, and be able to add and remove exercises from each workout, as well as add progress for each workout. They could do this via mobile phone or computer. Their IT skills are average so i will want the site to be intuitive to use but still styles in an appealing way that relates to the gym.
 
 ### Proposed Solution
 
-The proposed solution is a website for the user which allows him to Record his exercises and store that data so it can be seen in a table to show his progress over time. The website will also allow the user to select certain muscle groups before an exercise with pre loaded exercises instead of needing to re input it every time.
+The proposed solution is a website for the user which allows him to Record his exercises and workouts and store that data so it can be seen in a table to show his progress over time. The website will also allow the user to add and remove exercises from each workout, and then add progress to those workouts.
 
 
 -------------------------------------------------
@@ -158,6 +158,24 @@ I follow this by ensuring that all of my links that are in tables are highlighte
 
 ![Recognition Rather Than Recall Example](images/csas-ex-1.png)
 
+Aethestics and Minimalist Design:
+
+I Followed this heuristic by having a very basic design in  all of my pages so its easy to understand:
+
+![Aesthestics and Minimalist Design Example 1](images/csas-ex-1.png)
+
+![Aesthetics and Minimalist Design Example 1](images/csas-ex-2.png)
+
+Help Users Recognize, Diagnose, and Recover from Errors:
+
+I follow this heuristics so if the user attempts to delete a workout that still contains exercises, they receive a message that tells them to remove the exercises from the workout before they delete the workout:
+
+![Help Users Recognize, Diagnose, and Recover from Errors Example](images/aamd-ex.png)
+
+Help and Documentation:
+
+I do not follow this heuristic in my system, as I did not feel it was needed, the system is very simple and straightfowrwad do my user should not need any help
+
 
 ### Review of Aestestics
 
@@ -167,4 +185,4 @@ I successfully addressed this in my system through constantly shwoing my designs
 
 ### Review of Social
 
-I successfully addressed this implication in my system by ensuring that i never used any racist or bigoted terms, I also didn't use any pronouns in my system, which has 
+I successfully addressed this implication in my system by ensuring that i never used any racist or bigoted terms, I also didn't use any pronouns in my system, as there was no point where it would be needed.

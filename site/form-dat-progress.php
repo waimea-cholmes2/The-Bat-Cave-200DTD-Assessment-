@@ -25,7 +25,8 @@ $workoutID = $_GET['id'] ?? null;
 
 </form>
 <!-- Button to go back to the workout progress page  -->
-<a href="workout_progress.php?=<?= $workoutID ?>">
+<div id="form-button"> 
+<a href="workout_progress.php?id=<?= $workoutID ?>">
 Cancel
 </a>
 

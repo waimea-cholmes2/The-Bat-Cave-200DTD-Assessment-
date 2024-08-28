@@ -113,7 +113,7 @@ form label{
 
 
 /* BACK BUTTON ************************************************/
-#back-button {
+/* #back-button {
     position: fixed;
     right: 2rem;
     bottom: 5rem;
@@ -130,7 +130,7 @@ form label{
     color:white;
     text-decoration: none;
     border-radius: 2rem;
-}
+} */
 
 #back-button-workout a {
     display: flex;
@@ -147,7 +147,7 @@ form label{
 
 /* ADD BUTTON ************************************************/
 #add-button {
-    position: fixed;
+    float: right;
     right: 2rem;
     bottom: 5rem;
 }
@@ -167,7 +167,7 @@ form label{
 
 /* WORKOUT BUTTON ************************************************/
 #workout-button {
-    position: fixed;
+    float: left;
     left: 2rem;
     bottom: 5rem;
 }
@@ -187,7 +187,7 @@ form label{
 
 /* EXERCISE BUTTON ************************************************/
 #exercise-button {
-    position: fixed;
+    float: right;
     right: 2rem;
     bottom: 5rem;
 }
@@ -206,7 +206,7 @@ form label{
 }
 
 #exercise-button-workout {
-    position: fixed;
+    float: left;
     left: 2rem;
     bottom: 5rem;
 }

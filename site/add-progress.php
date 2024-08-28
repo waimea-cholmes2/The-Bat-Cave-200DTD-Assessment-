@@ -38,7 +38,7 @@ catch (PDOException $e) {
 }
 
 echo '<p>Success!</p>';
-
+//Go back to workout progress page
 header('location: workout_progress.php?id=' . $workoutID);
 
  include 'partials/bottom.php'; 
