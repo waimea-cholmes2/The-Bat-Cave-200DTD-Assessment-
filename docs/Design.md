@@ -109,7 +109,7 @@ I met all of the needs of my end user, as my systen is able to help my brother t
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+I met the system requirements by ensuring that my user is able to add and remove exercises and workouts, as well as track their progress for each workout, as well as them being able to add and remove exercises from each workout
 
 ### Review of Functionality
 
@@ -118,6 +118,46 @@ I successfully addressed this in my system by thoroughly checking that every sin
 ### Review of Usability 
 
 I successfully addressed this in my system through ensuring that everything in my system is logical and it makes sense, my user should have no difficulties when it comes to undertanding how to navigate the website as it is all straigh forward, and they also should have no problem when understanduing how to undo/cancel something.
+
+I also follow all of Nielson's heuristics as show below:
+
+Visibility of System Status:
+
+I follow this by having my user be shown exeactly what has been added to the data base after completing a form in every form exept for the modifying form:
+![Visibility of System tatus Example](images/Vis-sys-stat-ex.png)
+
+Match Between System and Real World:
+
+I did this through using Bins as the button to delete items:
+
+![Match Between Sysytem and Real World example](images/Mat-sys-rea-ex.png)
+
+User Control and Freedom:
+
+I did this by giving my user a clear way to cancel their wish to delete any items:
+
+![User Control and Freedom Example](images/ucaf-ex.png)
+
+Consistency and Standards:
+
+I follow this by ensuring that all of my oages have the same base layout:
+
+![Consistency and Standards Example 1](images/csas-ex-1.png)
+
+![Consistency and Standards Example 2](images/csas-ex-2.png)
+
+Error Prevention:
+
+I follow this by ensuring that my user has to confirm when they want to delete a piece of data:
+
+![Error Prevention Example](images/ucaf-ex.png)
+
+Recognition Rather Than Recall:
+
+I follow this by ensuring that all of my links that are in tables are highlighted in a different colour and underlined so it is obvious they are links the user can click on:
+
+![Recognition Rather Than Recall Example](images/csas-ex-1.png)
+
 
 ### Review of Aestestics
 

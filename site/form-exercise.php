@@ -4,7 +4,7 @@ include 'partials/top.php';
 ?>
 
 <h2>New Exercise</h2>
-
+<!-- Form ro add a new exercise to the exercise table -->
 <form method="post" action="add-exercise.php">
 
     <label>Name</label>
@@ -22,7 +22,8 @@ include 'partials/top.php';
     <input type="submit" value="Add">
 
 </form>
-
+<!-- Button which takes the user back to the exercise list -->
+<div id="form-button"> 
 <a href="list-exercise.php">
 Cancel
 </a>

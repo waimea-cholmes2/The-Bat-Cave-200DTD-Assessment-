@@ -32,7 +32,8 @@ catch (PDOException $e) {
 echo '<p>Success!</p>';
 
 //button to go back
-echo '<a href="workout.php">
+echo '<div id="form-button">
+<a href="workout.php">
 Back
 </a>';
 

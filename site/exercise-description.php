@@ -43,7 +43,7 @@ echo '<table>
   echo '</table>';
 
 //Button to go back to exercise list
-echo '<div id="button">
+echo '<div id="form-button">
 <a href="list-exercise.php">
 Back
 </a>

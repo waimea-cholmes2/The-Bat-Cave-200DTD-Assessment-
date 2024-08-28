@@ -24,7 +24,7 @@ $workoutID = $_GET['id'] ?? null;
     <input type="submit" value="Add">
 
 </form>
-<?=//Button to go back to the workout progress page ?>
+<!-- Button to go back to the workout progress page  -->
 <a href="workout_progress.php?=<?= $workoutID ?>">
 Cancel
 </a>
