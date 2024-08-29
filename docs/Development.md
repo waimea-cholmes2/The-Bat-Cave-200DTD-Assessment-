@@ -186,3 +186,37 @@ here is a couple examples of the updated version of the buttons:
 I also asked my end user if they wanted the home  button any closer or under the title of the website
 
 >> Nah just leave it there, so it's out of the way.
+
+## 29/08/2024
+Functionality Testing:
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/cholmes2_waimea_school_nz/EUbm8DzVwndKsfsl43u3sZEBjDCgmluZ56qUZXA5v4n2Ig?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljKzeT
+
+Code Validation:
+
+Home Page:
+
+![Home Page Validation](images/code-val.png)
+
+Workout Page:
+
+![Workout Page Validation](images/code-val.png)
+
+workout form:
+
+![Workout Form Validation](images/code-val.png)
+
+exercise form:
+
+![Exercise Form Errors](images/ex-f-e.png)
+
+I closed the div:
+
+![Exercise Form Validation](images/code-val.png)
+
+Exercise Description Page:
+
+![Exercise Description Validation](images/code-val.png)
+
+
+
+

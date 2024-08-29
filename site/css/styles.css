@@ -113,24 +113,6 @@ form label{
 
 
 /* BACK BUTTON ************************************************/
-/* #back-button {
-    position: fixed;
-    right: 2rem;
-    bottom: 5rem;
-}
-
-#back-button a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: 2rem;
-    width: 5rem;
-    background-color: red;
-    color:white;
-    text-decoration: none;
-    border-radius: 2rem;
-} */
 
 #back-button-workout a {
     display: flex;
@@ -185,6 +167,25 @@ form label{
     border-radius: 2rem;
 }
 
+#workout-button-home {
+    position: fixed;
+    left: 2rem;
+    bottom: 5rem;
+}
+
+#workout-button-home a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
 /* EXERCISE BUTTON ************************************************/
 #exercise-button {
     float: right;
@@ -193,6 +194,25 @@ form label{
 }
 
 #exercise-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2rem;
+    width: 6rem;
+    background-color: red;
+    color:white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+
+#exercise-button-home {
+    position: fixed;
+    right: 2rem;
+    bottom: 5rem;
+}
+
+#exercise-button-home a {
     display: flex;
     justify-content: center;
     align-items: center;

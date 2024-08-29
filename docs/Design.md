@@ -95,7 +95,14 @@ I added the date and time table as i realised i actually needed a way to track t
 
 ### User Interface Design
 
-Place screenshots and notes here that show your *actual system UI* in action.
+My home page has been altered slightly as well as the exercise list now being a table, the workout list is now a thing as well.
+
+![UIF Example](<images/home-page-aes.png>)
+![UIF Example](images/csas-ex-1.png)
+![UIF Example](images/csas-ex-2.png)
+![UIF Example](images/UIF-example.png)
+
+
 
 
 -------------------------------------------------
@@ -158,11 +165,15 @@ I follow this by ensuring that all of my links that are in tables are highlighte
 
 ![Recognition Rather Than Recall Example](images/csas-ex-1.png)
 
-Aethestics and Minimalist Design:
+Flexibility and efficiency of use:
+
+I followed this by ensuring that everything in my page is listed in step by step actions that my user can follow to complete all of the actions in my system 
+
+Aesthetics and Minimalist Design:
 
 I Followed this heuristic by having a very basic design in  all of my pages so its easy to understand:
 
-![Aesthestics and Minimalist Design Example 1](images/csas-ex-1.png)
+![Aesthetics and Minimalist Design Example 1](images/csas-ex-1.png)
 
 ![Aesthetics and Minimalist Design Example 1](images/csas-ex-2.png)
 
@@ -174,7 +185,7 @@ I follow this heuristics so if the user attempts to delete a workout that still 
 
 Help and Documentation:
 
-I do not follow this heuristic in my system, as I did not feel it was needed, the system is very simple and straightfowrwad do my user should not need any help
+I do not follow this heuristic in my system, as I did not feel it was needed, the system is very simple and straightforward do my user should not need any help
 
 
 ### Review of Aestestics

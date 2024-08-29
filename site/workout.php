@@ -33,7 +33,7 @@ echo '<ul id="workout-list">';
 foreach($workouts as $work) {
     echo '<li>';
     echo '<a href="workout_progress.php?id=' . $work['id'] . '">' . $work['name'] . '</a>' ;
-    echo '<td> <a href="delete-workout.php?id=' . $work['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
+    echo '<a href="delete-workout.php?id=' . $work['id'] . '" onclick="return confirm(`Are you sure?`);">🗑️</a>';
 
     echo '</li>';
 }

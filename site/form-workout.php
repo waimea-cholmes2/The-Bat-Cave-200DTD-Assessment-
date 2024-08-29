@@ -18,5 +18,6 @@ include 'partials/top.php';
 <a href="workout.php">
 Cancel
 </a>
+</div>
 
 <?php include 'partials/bottom.php'; ?>
