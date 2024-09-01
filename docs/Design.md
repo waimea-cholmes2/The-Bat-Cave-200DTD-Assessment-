@@ -111,12 +111,12 @@ My home page has been altered slightly as well as the exercise list now being a 
 
 ### Meeting the Needs of the Users
 
-I met all of the needs of my end user, as my systen is able to help my brother track each of his workouts, add and remove exercises from each workouts, as well as him being able to track when he has done each workout with the progress section, he can also add and remove exercises and workouts.
+I met all of the needs of my end user, as my system is able to help my brother track each of his workouts, add and remove exercises from each workouts, as well as him being able to track when he has done each workout with the progress section, he can also add and remove exercises and workouts.
 
 
 ### Meeting the System Requirements
 
-I met the system requirements by ensuring that my user is able to add and remove exercises and workouts, as well as track their progress for each workout, as well as them being able to add and remove exercises from each workout
+I met the system requirements by ensuring that my user is able to add and remove exercises and workouts, as well as track their progress for each workout, as well as them being able to add and remove exercises from each workout, they can also view their progress that they have made.
 
 ### Review of Functionality
 
@@ -124,7 +124,7 @@ I successfully addressed this in my system by thoroughly checking that every sin
 
 ### Review of Usability 
 
-I successfully addressed this in my system through ensuring that everything in my system is logical and it makes sense, my user should have no difficulties when it comes to undertanding how to navigate the website as it is all straigh forward, and they also should have no problem when understanduing how to undo/cancel something.
+I successfully addressed this in my system through ensuring that everything in my system is logical and it makes sense, my user should have no difficulties when it comes to understanding how to navigate the website as it is all straight forward, and they also should have no problem when understanding how to undo/cancel something.
 
 I also follow all of Nielson's heuristics as show below:
 

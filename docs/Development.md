@@ -118,7 +118,7 @@ Tried making the exercise description page, ran into a problem I couldn't fix on
 ## 25/07/2024
 I finished making the exercise description page with help from others and Mr.Copley, I also have started to remake part of the design, will show changes next class
 
-![Alt text](images/imagee.png)
+![Exercise Description Page](images/exercise-descriprion-p.png)
 
 I also showed what I had to my user 
 >> Yeah that's all cool, but you should make a page that shows the workouts as well, and also make it so when in that page, when you click on the workout all the exercise in that workout pop up as well as the data for each workout.
@@ -183,15 +183,81 @@ here is a couple examples of the updated version of the buttons as well as my ne
 ![Exercise Button Final Design](images/exercise-button-final.png)
 ![Exercise List Buttons Final](images/exercise-list-final.png)
 
-I also asked my end user if they wanted the home  button any closer or under the title of the website
+I also asked my end user if they wanted the home  button any closer or under the title of the website.
 
 >> Nah just leave it there, so it's out of the way.
 
+
+## 27/08/2024
+
+Here is all of my pages with the css design:
+
+Home Page: 
+I asked my user where they wanted the logo on the home page:
+
+>> Actually leave it to the side, I kind of like it.
+
+![Home Page CSS](images/home-page-aes.png)
+
+Exercise List:
+![Exercise List CSS](images/exercise-list-final.png)
+
+Exercise Form:
+![Exercise Form CSS](images/EF-CSS.png)
+
+Add Exercise Page:
+![Add Exercise CSS](images/AE-CSS.png)
+
+Workouts List:
+![Workout List CSS](images/workout-css.png)
+
+Workout Form:
+![Workout Form CSS](images/WF-CSS.png)
+
+Add Workout Page:
+![Add Workout CSS](images/AW-CSS.png)
+
+Workout Progress Page:
+My user told me this:
+
+>> Don't put the name of the workout at the top, I know you haven't but in case you were going to don't. It'll just make it look worse
+
+![Workout Progress CSS](images/WP-CSS.png)
+
+Progress Form:
+![Progress Form CSS](images/PF-CSS.png)
+
+Workout Modify Page:
+![Workout Modify Page](images/WM-CSS.png)
+
+These were my end users words after i showed them all to them.
+
+>> Yeah that all looks brilliant, thanks.
+
+
+
 ## 29/08/2024
 Functionality Testing:
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/cholmes2_waimea_school_nz/EUbm8DzVwndKsfsl43u3sZEBjDCgmluZ56qUZXA5v4n2Ig?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljKzeT
 
-Code Validation:
+[All Functionality](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/cholmes2_waimea_school_nz/EUbm8DzVwndKsfsl43u3sZEBjDCgmluZ56qUZXA5v4n2Ig?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ljKzeT)
+
+In this I show:
+
+- Adding and removing data from my exercise table
+
+- Adding and removing data from my workout table
+
+- Adding and removing data from my date and time table
+
+- Adding and removing exercises from workouts
+
+- Basic functionality of all links
+
+- Inability for my system to show an error that that may worry the user
+
+
+
+## Code Validation:
 
 Home Page:
 

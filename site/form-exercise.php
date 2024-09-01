@@ -11,7 +11,7 @@ include 'partials/top.php';
     <input name ="name" type="text" placeholder="e.g Bench Press" required>
 
     <label>Description</label>
-    <input name ="description" type="text" placeholder="e.g Banana's" required>
+    <input name ="description" type="text" required>
 
     <label>Sets</label>
     <input name ="sets" type="number" placeholder="e.g 3" required>
