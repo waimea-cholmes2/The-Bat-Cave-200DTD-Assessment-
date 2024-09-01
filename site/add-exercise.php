@@ -42,7 +42,8 @@ echo '<p>Success!</p>';
 echo '<div id="back-button-workout">
 <a href="list-exercise.php">
 Back
-</a>';
+</a>
+</div>';
 
  include 'partials/bottom.php'; 
  ?>

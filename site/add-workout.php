@@ -35,7 +35,8 @@ echo '<p>Success!</p>';
 echo '<div id="form-button">
 <a href="workout.php">
 Back
-</a>';
+</a>
+</div>';
 
  include 'partials/bottom.php'; 
  ?>

@@ -173,11 +173,11 @@ I've also started designing the css this is very rough and this is what it looks
 It's got the basic colours that I want, and most of my website it tables and forms, so I should only need to do the designs once, But if i come in at lunch and do work at home I should get it done in time.
 
 ## 21/08/2024
-I've finished my add progress button, and it now adds and links to the workout it was on before, ill fix the delting issue and add picture tomorrow, I've also shown my end-user the product for the final time.
->> yeah that's all perfect, does exactly what I want
+I've finished my add progress button, and it now adds and links to the workout it was on before, ill fix the delting issue and add picture tomorrow, I've also shown my end-user the product.
+>> yeah that's all perfect, does exactly what I want, but can you remove that extra line around the tables it just looks weird and also make the titles of the pages white.
 
 ## 22/08/2024
-here is a couple examples of the updated version of the buttons:
+here is a couple examples of the updated version of the buttons as well as my new design for all of the tables and the changed titles based on feedback:
 
 ![Workout Button Final Design](images/workout-button-final.png)
 ![Exercise Button Final Design](images/exercise-button-final.png)
@@ -216,6 +216,60 @@ I closed the div:
 Exercise Description Page:
 
 ![Exercise Description Validation](images/code-val.png)
+
+Exercise List:
+
+![Exercise List Validation](images/code-val.png)
+
+Progress Form:
+
+![Progress Form Error](images/pf-e.png)
+
+I closed the div and removed the placeholder:
+
+![Progress Form Validation](images/code-val.png)
+
+workout progress page:
+
+![Workout Progress Errors](images/wp-e.png)
+
+I removed the space after &wid=:
+
+![Workout Progress Validation](images/code-val.png)
+
+modify page:
+
+![Modify page errors](images/mp-e.png)
+
+I made the select not required:
+
+![Modify Page Validation](images/code-val.png)
+
+add exercise page:
+
+![Add Exercise Validation](images/code-val.png)
+
+delete exercise page:
+
+![Delete Exercise Validation](images/code-val.png)
+
+add workout:
+
+![Add Workout Validation](images/code-val.png)
+
+delete workout:
+
+![Delete Workout Validation](images/code-val.png)
+
+add progress:
+
+![Add Progress Validation](images/code-val.png)
+
+delete progress:
+
+![Delete Progress Validation](images/code-val.png)
+
+All of my code is now valid in html.
 
 
 

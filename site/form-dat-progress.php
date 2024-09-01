@@ -19,7 +19,7 @@ $workoutID = $_GET['id'] ?? null;
     <input name="date" type="date" min="<?= date('Y-m-d') ?>" required>
 
     <label>Time</label>
-    <input name ="time" type="time" placeholder="e.g 10" required>
+    <input name ="time" type="time" required>
 
     <input type="submit" value="Add">
 
@@ -29,5 +29,6 @@ $workoutID = $_GET['id'] ?? null;
 <a href="workout_progress.php?id=<?= $workoutID ?>">
 Cancel
 </a>
+</div>
 
 <?php include 'partials/bottom.php'; ?>

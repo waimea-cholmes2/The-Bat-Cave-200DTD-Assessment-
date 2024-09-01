@@ -39,7 +39,6 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($workouts);
  //List all exercises in the current workout
-echo '<ul id="name-list">';
  
 echo '<table>
         <tr>
@@ -55,7 +54,6 @@ foreach($workouts as $work) {
  
 echo '</table>';
  
-echo '</ul>';
  //Button to go to the nodify page
 echo '<div id="modify-button">
 <a href="modify.php?id='. $workoutID . '">
@@ -94,7 +92,7 @@ foreach($date_and_time as $dat) {
   echo '<tr>';
   echo '<td>' . $dat['datd'] . '</td>';
   echo '<td>' . $dat['datt'] . '</td>';
-  echo '<td> <a href="delete-progress.php?id=' . $dat['id'] .  ' &wid= ' . $workoutID . ' " onclick="return confirm(`Are you sure?`);">🗑️</a>';
+  echo '<td> <a href="delete-progress.php?id=' . $dat['id'] .  '&wid=' . $workoutID . ' " onclick="return confirm(`Are you sure?`);">🗑️</a>';
   echo '</tr>';
 }
 echo '</table>';

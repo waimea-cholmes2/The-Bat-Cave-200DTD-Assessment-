@@ -23,5 +23,7 @@ catch (PDOException $e) {
     consoleLog($e->getmessage(), 'DB List Fetch', ERROR);
     die('There was an error updating exercise data from the database');
 }
+
+echo '</main>';
 // Go back to exercise list
 header('location: list-exercise.php');

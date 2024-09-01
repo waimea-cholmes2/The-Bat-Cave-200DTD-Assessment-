@@ -14,12 +14,6 @@ $time   = $_POST['time'];
 consoleLog($_GET, 'Get Data');
 $workoutID = $_GET['id'] ?? null;
 
-//Print all of the data that has been submitted into the form
-echo '<p>date: ' . $date;
-echo '<p>time: ' . $time;
-echo '<p>workout: ' . $workoutID;
-
-
 
 
 //connect to data base

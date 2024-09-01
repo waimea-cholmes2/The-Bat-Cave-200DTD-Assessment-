@@ -23,5 +23,6 @@ catch (PDOException $e) {
     die('There was an error removing Progress');
 }
 
+echo '</main>';
 // Go back to page with info
 header('location: workout_progress.php?id=' . $workoutID);

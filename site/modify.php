@@ -35,7 +35,6 @@ catch (PDOException $e) {
 // See what we got back
 consoleLog($workouts);
  //List  all exercises in  the workout
-echo '<ul id="name-list">';
  
 echo '<table>
         <tr>
@@ -54,7 +53,6 @@ foreach($workouts as $work) {
  
 echo '</table>';
  
-echo '</ul>';
 
 
 //Set up a query which selects all exercises which are not on the current workout
@@ -84,7 +82,7 @@ catch (PDOException $e) {
 <form method="post" action="add-exer-work.php?id=<?= $workoutID ?>" >
 
 <label>Exercises</label>
-    <select name ="exercise" required>
+    <select name ="exercise">    
 
 <?php 
 foreach($exercises as $exercise){
@@ -93,6 +91,7 @@ foreach($exercises as $exercise){
     echo '</option>';
 }
 ?>
+</select>
 
 <input type="submit" value="Add">
 
@@ -105,4 +104,6 @@ echo '<div id="modify-button">
 Done
 </a>
 </div>';
+
+echo '</main>';
 ?>
