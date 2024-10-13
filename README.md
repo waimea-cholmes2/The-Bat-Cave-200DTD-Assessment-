@@ -1,11 +1,10 @@
-# The-Bat-Cave-200DTD-Assessment-
-Bayley's Epic Workout App
+# Bayley's Epic Workout App
 
 ## Purpose
 
 This project is a system that will allow a user to track their workouts and see progress on different workouts over time 
 
-![Alt text](images/pink-dumbell-pic.png)
+![Alt text](docs/images/pink-dumbell-pic.png)
 
 ## Features
 
@@ -18,5 +17,5 @@ This project is a system that will allow a user to track their workouts and see 
  
 The following documents support this project:
 
-- [Design & Review](Design.md)
-- [Development & Testing](Development.md)
+- [Design & Review](docs/Design.md)
+- [Development & Testing](docs/Development.md)
